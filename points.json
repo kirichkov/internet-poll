@@ -2,16 +2,36 @@
   {
     "latlong": [50.73295, 9.19361],
     "status": "ja",
-    "address": "Romrod, Tannenstraße 1"
+    "address": {
+      "street": "Tannenstraße",
+      "number": "1"
+    } 
   },
   {
     "latlong": [50.73254, 9.19463],
     "status": "nein",
-    "address": "Romrod, Tannenstraße 10"
+    "address": {
+      "street": "Tannenstraße",
+      "number": "10"
+    } 
   },
   {
     "latlong": [50.73243, 9.19382],
     "status": "vielleicht",
-    "address": "Romrod, Tannenstraße 87"
+    "address": {
+      "street": "Tannenstraße",
+      "number": "187"
+    }
+  },
+  {
+    "latlong": [
+      50.73243,
+      9.19561
+    ],
+    "status": "unknown",
+    "address": {
+      "street": "Tannenstraße",
+      "number": "187"
+    }
   }
 ]

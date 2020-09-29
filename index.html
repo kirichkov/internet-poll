@@ -2,7 +2,10 @@
 <html>
   <head>
     <title>TITLE</title>
-     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+    <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
    crossorigin=""/>
    <style>
@@ -44,6 +47,10 @@
         iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png'
       });
 
+      var grey = new ColorMarker({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-grey.png'
+      });
+
       $(function(){
         $.getJSON('./points.json', function(data, status, xhr){
           $.each(data, function(index, el){
@@ -57,10 +64,13 @@
               case 'vielleicht':
                 icon = red;
                 break;
+              case 'unknown':
+                icon  = grey;
+                break;
             }
 
             var marker = L.marker(el.latlong, { icon: icon })
-            marker.bindTooltip(el.address + "<br />\nEntscheidung: " + el.status);
+            marker.bindTooltip('<b>' + el.address.street + " " + el.address.number + "</b><br />\nEntscheidung: " + el.status);
             marker.addTo(map);
           });
         });
