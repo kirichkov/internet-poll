@@ -1,0 +1,17 @@
+[
+  {
+    "latlong": [50.73295, 9.19361],
+    "status": "ja",
+    "address": "Romrod, Tannenstraße 1"
+  },
+  {
+    "latlong": [50.73254, 9.19463],
+    "status": "nein",
+    "address": "Romrod, Tannenstraße 10"
+  },
+  {
+    "latlong": [50.73243, 9.19382],
+    "status": "vielleicht",
+    "address": "Romrod, Tannenstraße 87"
+  }
+]
