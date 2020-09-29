@@ -50,7 +50,7 @@
       });
 
       $(function(){
-        $.getJSON('/points.json', function(data, status, xhr){
+        $.getJSON('./points.json', function(data, status, xhr){
           $.each(data, function(index, el){
             switch (el.status) {
               case 'ja':
