@@ -7,7 +7,7 @@ cursor = db.cursor()
 
 #Create table
 cursor.execute('''
-    CREATE TABLE survey(id INTEGER PRIMARY KEY, 
+    CREATE TABLE survey(id INTEGER PRIMARY KEY AUTOINCREMENT, 
                         long TEXT NOT NULL, 
                         lat TEXT NOT NULL,
                         status TEXT NOT NULL,
@@ -20,7 +20,6 @@ with open('osm_data.geojson') as f:
   osm_data = json.load(f)
   
   
-id = 1  
 # Iterate through all features of GEOJSON
 for feature in osm_data['features']:
         geometry = feature['geometry']
@@ -30,14 +29,14 @@ for feature in osm_data['features']:
         # Get center of coordinates for marker
         if isinstance(geometry['coordinates'][0], list):
             for coord in geometry['coordinates'][0]:
-                lat_arr.append(coord[0])
-                long_arr.append(coord[1])
+                lat_arr.append(coord[1])
+                long_arr.append(coord[0])
                 
             lat = sum(lat_arr)/len(lat_arr)
             long = sum(long_arr)/len(long_arr)    
         else:
-            lat = geometry['coordinates'][0]
-            long = geometry['coordinates'][1] 
+            lat = geometry['coordinates'][1]
+            long = geometry['coordinates'][0] 
 
 
         status = "unknown"
@@ -49,8 +48,7 @@ for feature in osm_data['features']:
         housenumber = feature['properties']['addr:housenumber']
         
         # Add to database
-        id = id+1
-        cursor.execute('''INSERT INTO survey(id, long, lat, status, street, housenumber)
-                            VALUES(?,?,?,?,?,?)''', (id, long, lat, status, street, housenumber))
+        cursor.execute('''INSERT INTO survey(long, lat, status, street, housenumber)
+                            VALUES(?,?,?,?,?,?)''', (long, lat, status, street, housenumber))
                                            
 db.commit()
