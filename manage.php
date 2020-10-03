@@ -8,6 +8,12 @@
 
     return $returnPostVar;
   }
+	
+	function writeLog($action, $content) {
+		$log  = date("Ymd H:i:s")." [".$_SERVER['REMOTE_ADDR']."] @".$action." -> ".$content.PHP_EOL;
+
+    file_put_contents('log_'.date("Ymd").'.txt', $log, FILE_APPEND);
+	}
 
   // Start session
   session_start();
@@ -24,7 +30,7 @@
   function getDBMarkerToJSON() {
 		try {
 			$db = new SQLite3('survey.sqlite', SQLITE3_OPEN_READONLY);
-			$results = $db->query("SELECT id, long, lat, status, street, housenumber FROM survey") or die ("Failed to run SELECT");
+			$results = $db->query("SELECT id, long, lat, status, street, housenumber FROM survey WHERE status != 'deleted'") or die ("Failed to run SELECT");
 
 			$arr_data = array();
 			
@@ -56,9 +62,8 @@
 		}	  
   }
 
-  //getDBMarkerToJSON();
 
-
+  // update
 	function updateDBMarker() {
 				
 		$inId = getPostVar("inId");
@@ -69,9 +74,11 @@
 		try {
 			$db = new SQLite3('survey.sqlite', SQLITE3_OPEN_READWRITE);
 			// Please see: https://xkcd.com/327/
-			$query = $db->exec("UPDATE survey SET status='" . $inStatus . "', street='" . $inStreet . "', housenumber='" . $inHousenumber . "' WHERE id='" . $inId . "'");
+			$query = $db->exec("UPDATE survey SET status='" . $db->escapeString($inStatus) . "', street='" . $db->escapeString($inStreet) . "', housenumber='" . $db->escapeString($inHousenumber) . "' WHERE id='" . $db->escapeString($inId) . "'");
 
-				$db->close();	
+			$db->close();	
+			
+			writeLog("update", $inId);
 		}catch (Exception $e) {
 			echo $e;
 		}	
@@ -79,6 +86,24 @@
 		getDBMarkerToJSON();
 	}
 	
+	// delete
+	function deleteDBMarker() {
+				
+		$inId = getPostVar("inId");
+
+		try {
+			$db = new SQLite3('survey.sqlite', SQLITE3_OPEN_READWRITE);
+			// Please see: https://xkcd.com/327/
+			$query = $db->exec("UPDATE survey SET status='deleted' WHERE id='" . $db->escapeString($inId) . "'");
+
+				$db->close();	
+				writeLog("delete", $inId);
+		}catch (Exception $e) {
+			echo $e;
+		}	
+
+		getDBMarkerToJSON();
+	}
 
 	function insertDBMarker() {
 		$inStreet = getPostVar("inStreet");
@@ -92,8 +117,8 @@
 			$db = new SQLite3('survey.sqlite', SQLITE3_OPEN_READWRITE);
 			// Please see: https://xkcd.com/327/
 			$query = $db->exec("INSERT INTO survey (long, lat, status, street, housenumber) VALUES(\"" . $db->escapeString($long) . "\", \"" . $db->escapeString($lat) . "\", \"" . $db->escapeString($inStatus) . "\", \"" . $db->escapeString($inStreet) . "\", \"" . $db->escapeString($inHousenumber) . "\");");
-
-			 $db->close();	
+			print($db->lastInsertRowID());
+			$db->close();	
 		} catch (Exception $e) {
 			echo $e;
 		}	
@@ -114,6 +139,9 @@
       break;
     case "insert":
       insertDBMarker();
+      break;
+    case "delete":
+      deleteDBMarker();
       break;
   }
 
@@ -138,5 +166,5 @@
 
 <?php 
 //echo($_SESSION['token']);
-	if (!file_exists(points.json)) getDBMarkerToJSON();
+	if (!file_exists("points.json")) getDBMarkerToJSON();
  ?>

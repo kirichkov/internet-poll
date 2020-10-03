@@ -1,37 +1,8682 @@
 [
-  {
-    "latlong": [50.73295, 9.19361],
-    "status": "ja",
-    "address": {
-      "street": "Tannenstraße",
-      "number": "1"
-    } 
-  },
-  {
-    "latlong": [50.73254, 9.19463],
-    "status": "nein",
-    "address": {
-      "street": "Tannenstraße",
-      "number": "10"
-    } 
-  },
-  {
-    "latlong": [50.73243, 9.19382],
-    "status": "vielleicht",
-    "address": {
-      "street": "Tannenstraße",
-      "number": "187"
+    {
+        "id": 1,
+        "latlong": [
+            "50.7190018818182",
+            "9.22340721818182"
+        ],
+        "status": "unknown",
+        "street": "Am Berg",
+        "housenumber": "3"
+    },
+    {
+        "id": 2,
+        "latlong": [
+            "50.7158067727273",
+            "9.21695691818182"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 3,
+        "latlong": [
+            "50.71479042",
+            "9.21613248"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 4,
+        "latlong": [
+            "50.71470602",
+            "9.21664416"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 5,
+        "latlong": [
+            "50.7156208714286",
+            "9.21697804285714"
+        ],
+        "status": "unknown",
+        "street": "Jahnstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 6,
+        "latlong": [
+            "50.7149774909091",
+            "9.2166733"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 7,
+        "latlong": [
+            "50.71086132",
+            "9.21620452"
+        ],
+        "status": "unknown",
+        "street": "Wartgasse",
+        "housenumber": "2"
+    },
+    {
+        "id": 8,
+        "latlong": [
+            "50.7106548142857",
+            "9.21616384285714"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "31"
+    },
+    {
+        "id": 9,
+        "latlong": [
+            "50.7102701666667",
+            "9.21499958888889"
+        ],
+        "status": "unknown",
+        "street": "Im Weingarten",
+        "housenumber": "10"
+    },
+    {
+        "id": 10,
+        "latlong": [
+            "50.7105574857143",
+            "9.21479065714286"
+        ],
+        "status": "unknown",
+        "street": "Im Weingarten",
+        "housenumber": "7"
+    },
+    {
+        "id": 11,
+        "latlong": [
+            "50.71102",
+            "9.21600305714286"
+        ],
+        "status": "unknown",
+        "street": "Wartgasse",
+        "housenumber": "1"
+    },
+    {
+        "id": 12,
+        "latlong": [
+            "50.7098081571429",
+            "9.2149614"
+        ],
+        "status": "unknown",
+        "street": "Im Weingarten",
+        "housenumber": "14"
+    },
+    {
+        "id": 13,
+        "latlong": [
+            "50.7160275",
+            "9.22451512857143"
+        ],
+        "status": "unknown",
+        "street": "Lessingstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 14,
+        "latlong": [
+            "50.7162817428571",
+            "9.22442534285714"
+        ],
+        "status": "unknown",
+        "street": "Lessingstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 15,
+        "latlong": [
+            "50.7104964111111",
+            "9.21609603333333"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "33"
+    },
+    {
+        "id": 16,
+        "latlong": [
+            "50.71634592",
+            "9.22484038"
+        ],
+        "status": "unknown",
+        "street": "Lessingstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 17,
+        "latlong": [
+            "50.7099257142857",
+            "9.21716994285714"
+        ],
+        "status": "unknown",
+        "street": "Ringstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 18,
+        "latlong": [
+            "50.7111024142857",
+            "9.2150842"
+        ],
+        "status": "unknown",
+        "street": "Im Weingarten",
+        "housenumber": "3"
+    },
+    {
+        "id": 19,
+        "latlong": [
+            "50.7113337",
+            "9.21522926"
+        ],
+        "status": "unknown",
+        "street": "Im Weingarten",
+        "housenumber": "1"
+    },
+    {
+        "id": 20,
+        "latlong": [
+            "50.7168169714286",
+            "9.22458981428572"
+        ],
+        "status": "unknown",
+        "street": "Lessingstra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 21,
+        "latlong": [
+            "50.7165497444444",
+            "9.22482428888889"
+        ],
+        "status": "unknown",
+        "street": "Lessingstra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 22,
+        "latlong": [
+            "50.7164934142857",
+            "9.22428257619048"
+        ],
+        "status": "unknown",
+        "street": "Lessingstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 23,
+        "latlong": [
+            "50.7095457428571",
+            "9.21574571428572"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "40"
+    },
+    {
+        "id": 24,
+        "latlong": [
+            "50.71614172",
+            "9.22496302"
+        ],
+        "status": "unknown",
+        "street": "Lessingstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 25,
+        "latlong": [
+            "50.7146087363636",
+            "9.22301563636364"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 26,
+        "latlong": [
+            "50.71080962",
+            "9.2163322"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "29"
+    },
+    {
+        "id": 27,
+        "latlong": [
+            "50.7135180142857",
+            "9.21561505714286"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 28,
+        "latlong": [
+            "50.7125070142857",
+            "9.2145512"
+        ],
+        "status": "unknown",
+        "street": "Am Hofacker",
+        "housenumber": "5"
+    },
+    {
+        "id": 29,
+        "latlong": [
+            "50.7126379285714",
+            "9.21522194285714"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "21"
+    },
+    {
+        "id": 30,
+        "latlong": [
+            "50.7140454",
+            "9.21586764"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 31,
+        "latlong": [
+            "50.7131756857143",
+            "9.21365395714286"
+        ],
+        "status": "unknown",
+        "street": "Am Hofacker",
+        "housenumber": "12"
+    },
+    {
+        "id": 32,
+        "latlong": [
+            "50.71267914",
+            "9.21445604"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "20"
+    },
+    {
+        "id": 33,
+        "latlong": [
+            "50.7132242222222",
+            "9.21566821111111"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 34,
+        "latlong": [
+            "50.7130160571429",
+            "9.21374902857143"
+        ],
+        "status": "unknown",
+        "street": "Am Hofacker",
+        "housenumber": "10"
+    },
+    {
+        "id": 35,
+        "latlong": [
+            "50.7070498636364",
+            "9.2103663"
+        ],
+        "status": "unknown",
+        "street": "Au\u00dferhalb",
+        "housenumber": "12"
+    },
+    {
+        "id": 36,
+        "latlong": [
+            "50.7121615142857",
+            "9.21475465714286"
+        ],
+        "status": "unknown",
+        "street": "Am Hofacker",
+        "housenumber": "1"
+    },
+    {
+        "id": 37,
+        "latlong": [
+            "50.70783338",
+            "9.21053924"
+        ],
+        "status": "unknown",
+        "street": "Au\u00dferhalb",
+        "housenumber": "22"
+    },
+    {
+        "id": 38,
+        "latlong": [
+            "50.71279372",
+            "9.2131663"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "21"
+    },
+    {
+        "id": 39,
+        "latlong": [
+            "50.7128768",
+            "9.21523112"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 40,
+        "latlong": [
+            "50.71394432",
+            "9.21565626"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 41,
+        "latlong": [
+            "50.7136814222222",
+            "9.21338717777778"
+        ],
+        "status": "unknown",
+        "street": "Am Hofacker",
+        "housenumber": "18"
+    },
+    {
+        "id": 42,
+        "latlong": [
+            "50.7125571285714",
+            "9.21405975714286"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "22"
+    },
+    {
+        "id": 43,
+        "latlong": [
+            "50.70620118",
+            "9.20783222"
+        ],
+        "status": "unknown",
+        "street": "Au\u00dferhalb",
+        "housenumber": "14"
+    },
+    {
+        "id": 44,
+        "latlong": [
+            "50.71327522",
+            "9.21519144"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "19"
+    },
+    {
+        "id": 45,
+        "latlong": [
+            "50.71375098",
+            "9.21629092"
+        ],
+        "status": "unknown",
+        "street": "Ecke",
+        "housenumber": "4"
+    },
+    {
+        "id": 46,
+        "latlong": [
+            "50.7133570428571",
+            "9.21401944285714"
+        ],
+        "status": "unknown",
+        "street": "Am Hofacker",
+        "housenumber": "9"
+    },
+    {
+        "id": 47,
+        "latlong": [
+            "50.71231282",
+            "9.21466606"
+        ],
+        "status": "unknown",
+        "street": "Am Hofacker",
+        "housenumber": "3"
+    },
+    {
+        "id": 48,
+        "latlong": [
+            "50.71322974",
+            "9.21658794"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 49,
+        "latlong": [
+            "50.7132363",
+            "9.2163939"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "9a"
+    },
+    {
+        "id": 50,
+        "latlong": [
+            "50.7134637111111",
+            "9.21514051111111"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "17"
+    },
+    {
+        "id": 51,
+        "latlong": [
+            "50.7127625571429",
+            "9.21389074285714"
+        ],
+        "status": "unknown",
+        "street": "Am Hofacker",
+        "housenumber": "8"
+    },
+    {
+        "id": 52,
+        "latlong": [
+            "50.71430996",
+            "9.21582816"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 53,
+        "latlong": [
+            "50.7124023142857",
+            "9.21533401428571"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "23"
+    },
+    {
+        "id": 54,
+        "latlong": [
+            "50.7139113571429",
+            "9.21617332857143"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 55,
+        "latlong": [
+            "50.7132636266667",
+            "9.21761546"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 56,
+        "latlong": [
+            "50.7134077444444",
+            "9.2155487"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 57,
+        "latlong": [
+            "50.71351384",
+            "9.21351256"
+        ],
+        "status": "unknown",
+        "street": "Am Hofacker",
+        "housenumber": "16"
+    },
+    {
+        "id": 58,
+        "latlong": [
+            "50.7138287",
+            "9.21498298"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 59,
+        "latlong": [
+            "50.70747882",
+            "9.21061616"
+        ],
+        "status": "unknown",
+        "street": "Au\u00dferhalb",
+        "housenumber": "13"
+    },
+    {
+        "id": 60,
+        "latlong": [
+            "50.7128662571429",
+            "9.2143175"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "19"
+    },
+    {
+        "id": 61,
+        "latlong": [
+            "50.7131086714286",
+            "9.21523098571429"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "15"
+    },
+    {
+        "id": 62,
+        "latlong": [
+            "50.71361522",
+            "9.21655882"
+        ],
+        "status": "unknown",
+        "street": "Ecke",
+        "housenumber": "3"
+    },
+    {
+        "id": 63,
+        "latlong": [
+            "50.7133403",
+            "9.21355895555556"
+        ],
+        "status": "unknown",
+        "street": "Am Hofacker",
+        "housenumber": "14"
+    },
+    {
+        "id": 64,
+        "latlong": [
+            "50.7136546428572",
+            "9.2151122"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "15"
+    },
+    {
+        "id": 65,
+        "latlong": [
+            "50.7123332428571",
+            "9.21421035714286"
+        ],
+        "status": "unknown",
+        "street": "Am Hofacker",
+        "housenumber": "6"
+    },
+    {
+        "id": 66,
+        "latlong": [
+            "50.71322648",
+            "9.21620662"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 67,
+        "latlong": [
+            "50.7130688142857",
+            "9.2142098"
+        ],
+        "status": "unknown",
+        "street": "Am Hofacker",
+        "housenumber": "7"
+    },
+    {
+        "id": 68,
+        "latlong": [
+            "50.7121409909091",
+            "9.21423965454545"
+        ],
+        "status": "unknown",
+        "street": "Am Hofacker",
+        "housenumber": "4"
+    },
+    {
+        "id": 69,
+        "latlong": [
+            "50.7303339222222",
+            "9.19640166666667"
+        ],
+        "status": "unknown",
+        "street": "Billertsh\u00e4user Stra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 70,
+        "latlong": [
+            "50.730365",
+            "9.19561486"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "3"
+    },
+    {
+        "id": 71,
+        "latlong": [
+            "50.7303767142857",
+            "9.19586647142857"
+        ],
+        "status": "unknown",
+        "street": "Billertsh\u00e4user Stra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 72,
+        "latlong": [
+            "50.7306845555556",
+            "9.19556394444445"
+        ],
+        "status": "unknown",
+        "street": "Billertsh\u00e4user Stra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 73,
+        "latlong": [
+            "50.7312554307692",
+            "9.19697585384615"
+        ],
+        "status": "unknown",
+        "street": "Schellgasse",
+        "housenumber": "2"
+    },
+    {
+        "id": 74,
+        "latlong": [
+            "50.73016524",
+            "9.19710116"
+        ],
+        "status": "unknown",
+        "street": "Brunnenstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 75,
+        "latlong": [
+            "50.73052674",
+            "9.19606896"
+        ],
+        "status": "unknown",
+        "street": "Billertsh\u00e4user Stra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 76,
+        "latlong": [
+            "50.730561325",
+            "9.19567675"
+        ],
+        "status": "unknown",
+        "street": "Billertsh\u00e4user Stra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 77,
+        "latlong": [
+            "50.7330501615385",
+            "9.19829319230769"
+        ],
+        "status": "unknown",
+        "street": "Billertsh\u00e4user Stra\u00dfe",
+        "housenumber": "21"
+    },
+    {
+        "id": 78,
+        "latlong": [
+            "50.7291779909091",
+            "9.20129670909091"
+        ],
+        "status": "unknown",
+        "street": "Bahnhofstra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 79,
+        "latlong": [
+            "50.7306468833333",
+            "9.19519245"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "5"
+    },
+    {
+        "id": 80,
+        "latlong": [
+            "50.7300427",
+            "9.19651891428571"
+        ],
+        "status": "unknown",
+        "street": "Billertsh\u00e4user Stra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 81,
+        "latlong": [
+            "50.7280737714286",
+            "9.19951964285714"
+        ],
+        "status": "unknown",
+        "street": "Am Bahnhof",
+        "housenumber": "7a"
+    },
+    {
+        "id": 82,
+        "latlong": [
+            "50.72907506",
+            "9.19611736"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 83,
+        "latlong": [
+            "50.7292789111111",
+            "9.19654834444444"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 84,
+        "latlong": [
+            "50.7275284090909",
+            "9.19903853636364"
+        ],
+        "status": "unknown",
+        "street": "Am Bahnhof",
+        "housenumber": "11"
+    },
+    {
+        "id": 85,
+        "latlong": [
+            "50.7285485090909",
+            "9.19972294545455"
+        ],
+        "status": "unknown",
+        "street": "Gartenstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 86,
+        "latlong": [
+            "50.7316402444444",
+            "9.19534252222222"
+        ],
+        "status": "unknown",
+        "street": "Kaulbahn",
+        "housenumber": "3"
+    },
+    {
+        "id": 87,
+        "latlong": [
+            "50.72929922",
+            "9.19966866"
+        ],
+        "status": "unknown",
+        "street": "Bahnhofstra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 88,
+        "latlong": [
+            "50.7284622882353",
+            "9.20063993529412"
+        ],
+        "status": "unknown",
+        "street": "Am Bahnhof",
+        "housenumber": "1"
+    },
+    {
+        "id": 89,
+        "latlong": [
+            "50.73227948",
+            "9.19673216"
+        ],
+        "status": "unknown",
+        "street": "Billertsh\u00e4user Stra\u00dfe",
+        "housenumber": "20"
+    },
+    {
+        "id": 90,
+        "latlong": [
+            "50.72880962",
+            "9.20139168"
+        ],
+        "status": "unknown",
+        "street": "Bahnhofstra\u00dfe",
+        "housenumber": "17"
+    },
+    {
+        "id": 91,
+        "latlong": [
+            "50.7289574571428",
+            "9.19923508571429"
+        ],
+        "status": "unknown",
+        "street": "Gartenstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 92,
+        "latlong": [
+            "50.72824114",
+            "9.20019074"
+        ],
+        "status": "unknown",
+        "street": "Gartenstra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 93,
+        "latlong": [
+            "50.728462475",
+            "9.200023225"
+        ],
+        "status": "unknown",
+        "street": "Gartenstra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 94,
+        "latlong": [
+            "50.73122776",
+            "9.19528114"
+        ],
+        "status": "unknown",
+        "street": "Kaulbahn",
+        "housenumber": "1"
+    },
+    {
+        "id": 95,
+        "latlong": [
+            "50.72894902",
+            "9.20100328"
+        ],
+        "status": "unknown",
+        "street": "Bahnhofstra\u00dfe",
+        "housenumber": "15"
+    },
+    {
+        "id": 96,
+        "latlong": [
+            "50.7295405111111",
+            "9.19618942222222"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "2"
+    },
+    {
+        "id": 97,
+        "latlong": [
+            "50.72845978",
+            "9.1992123"
+        ],
+        "status": "unknown",
+        "street": "Gartenstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 98,
+        "latlong": [
+            "50.73192214",
+            "9.19550902"
+        ],
+        "status": "unknown",
+        "street": "Kaulbahn",
+        "housenumber": "4"
+    },
+    {
+        "id": 99,
+        "latlong": [
+            "50.72790366",
+            "9.19970388"
+        ],
+        "status": "unknown",
+        "street": "Am Bahnhof",
+        "housenumber": "7"
+    },
+    {
+        "id": 100,
+        "latlong": [
+            "50.7286912444444",
+            "9.19950915555556"
+        ],
+        "status": "unknown",
+        "street": "Gartenstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 101,
+        "latlong": [
+            "50.73235406",
+            "9.19696194"
+        ],
+        "status": "unknown",
+        "street": "Billertsh\u00e4user Stra\u00dfe",
+        "housenumber": "22"
+    },
+    {
+        "id": 102,
+        "latlong": [
+            "50.73149484",
+            "9.1953352"
+        ],
+        "status": "unknown",
+        "street": "Kaulbahn",
+        "housenumber": "2"
+    },
+    {
+        "id": 103,
+        "latlong": [
+            "50.7284702",
+            "9.19570944"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 104,
+        "latlong": [
+            "50.726714168421",
+            "9.19834469473684"
+        ],
+        "status": "unknown",
+        "street": "Wiesenstra\u00dfe",
+        "housenumber": "19"
+    },
+    {
+        "id": 105,
+        "latlong": [
+            "50.7285808777778",
+            "9.19620436666666"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 106,
+        "latlong": [
+            "50.6757439923077",
+            "9.22657363846154"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "37"
+    },
+    {
+        "id": 107,
+        "latlong": [
+            "50.6757680571429",
+            "9.22812185714286"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "30"
+    },
+    {
+        "id": 108,
+        "latlong": [
+            "50.67617564",
+            "9.22752646"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "20"
+    },
+    {
+        "id": 109,
+        "latlong": [
+            "50.6872398875",
+            "9.2434132"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 110,
+        "latlong": [
+            "50.6862905777778",
+            "9.24246606666667"
+        ],
+        "status": "nein",
+        "street": "M\u00fchlgasse",
+        "housenumber": "5"
+    },
+    {
+        "id": 111,
+        "latlong": [
+            "50.7149014090909",
+            "9.22460885454545"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 112,
+        "latlong": [
+            "50.7142555909091",
+            "9.22526950909091"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 113,
+        "latlong": [
+            "50.7152290363636",
+            "9.22594328181818"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 114,
+        "latlong": [
+            "50.7155537",
+            "9.22449328181818"
+        ],
+        "status": "unknown",
+        "street": "Schillerstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 115,
+        "latlong": [
+            "50.7152625545455",
+            "9.22493370909091"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 116,
+        "latlong": [
+            "50.7139062181818",
+            "9.22903093636364"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "21"
+    },
+    {
+        "id": 117,
+        "latlong": [
+            "50.7141012909091",
+            "9.22719531818182"
+        ],
+        "status": "unknown",
+        "street": "Brechtstra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 118,
+        "latlong": [
+            "50.7145679",
+            "9.22893783333333"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 119,
+        "latlong": [
+            "50.7123204333333",
+            "9.22727595833333"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "6"
+    },
+    {
+        "id": 120,
+        "latlong": [
+            "50.7154015916667",
+            "9.22557995"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 121,
+        "latlong": [
+            "50.71301995",
+            "9.22784454166667"
+        ],
+        "status": "unknown",
+        "street": "Grimmweg",
+        "housenumber": "1"
+    },
+    {
+        "id": 122,
+        "latlong": [
+            "50.7158340846154",
+            "9.22415920769231"
+        ],
+        "status": "unknown",
+        "street": "Schillerstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 123,
+        "latlong": [
+            "50.7161451538462",
+            "9.22324822307692"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "37"
+    },
+    {
+        "id": 124,
+        "latlong": [
+            "50.7125086466667",
+            "9.227759"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "2"
+    },
+    {
+        "id": 125,
+        "latlong": [
+            "50.71451215",
+            "9.22589094375"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 126,
+        "latlong": [
+            "50.715748575",
+            "9.2250815625"
+        ],
+        "status": "unknown",
+        "street": "Schillerstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 127,
+        "latlong": [
+            "50.7132422176471",
+            "9.22819290588235"
+        ],
+        "status": "unknown",
+        "street": "B\u00fcchnerweg",
+        "housenumber": "1"
+    },
+    {
+        "id": 128,
+        "latlong": [
+            "50.71527194",
+            "9.22402004"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 129,
+        "latlong": [
+            "50.71423284",
+            "9.22585148"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 130,
+        "latlong": [
+            "50.7151996",
+            "9.22423102"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 131,
+        "latlong": [
+            "50.71420776",
+            "9.2284577"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "17"
+    },
+    {
+        "id": 132,
+        "latlong": [
+            "50.7143012285714",
+            "9.22997677142857"
+        ],
+        "status": "unknown",
+        "street": "L\u00f6nsstra\u00dfe",
+        "housenumber": "21"
+    },
+    {
+        "id": 133,
+        "latlong": [
+            "50.71520682",
+            "9.2233973"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 134,
+        "latlong": [
+            "50.71449824",
+            "9.22715712"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 135,
+        "latlong": [
+            "50.71386832",
+            "9.22811992"
+        ],
+        "status": "unknown",
+        "street": "Brechtstra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 136,
+        "latlong": [
+            "50.71453666",
+            "9.2268531"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 137,
+        "latlong": [
+            "50.7143625",
+            "9.22783772"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 138,
+        "latlong": [
+            "50.71454958",
+            "9.22647996"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 139,
+        "latlong": [
+            "50.71634784",
+            "9.22354356"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "39"
+    },
+    {
+        "id": 140,
+        "latlong": [
+            "50.71595266",
+            "9.22311014"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "35"
+    },
+    {
+        "id": 141,
+        "latlong": [
+            "50.71399348",
+            "9.22537354"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 142,
+        "latlong": [
+            "50.71406394",
+            "9.2275404"
+        ],
+        "status": "unknown",
+        "street": "Brechtstra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 143,
+        "latlong": [
+            "50.71576154",
+            "9.22285318"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "33"
+    },
+    {
+        "id": 144,
+        "latlong": [
+            "50.7142122285714",
+            "9.22468862857143"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "20"
+    },
+    {
+        "id": 145,
+        "latlong": [
+            "50.712851",
+            "9.22811017142857"
+        ],
+        "status": "unknown",
+        "street": "Grimmweg",
+        "housenumber": "5"
+    },
+    {
+        "id": 146,
+        "latlong": [
+            "50.7140642714286",
+            "9.22873922857143"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "19"
+    },
+    {
+        "id": 147,
+        "latlong": [
+            "50.7156033428571",
+            "9.22345264285714"
+        ],
+        "status": "unknown",
+        "street": "Schillerstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 148,
+        "latlong": [
+            "50.7145226714286",
+            "9.22466985714286"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 149,
+        "latlong": [
+            "50.7141978142857",
+            "9.22650341428571"
+        ],
+        "status": "unknown",
+        "street": "Brechtstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 150,
+        "latlong": [
+            "50.7142473285714",
+            "9.22818545714286"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "15"
+    },
+    {
+        "id": 151,
+        "latlong": [
+            "50.7141980285714",
+            "9.22621801428572"
+        ],
+        "status": "unknown",
+        "street": "Brechtstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 152,
+        "latlong": [
+            "50.7154892571429",
+            "9.2228454"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "31"
+    },
+    {
+        "id": 153,
+        "latlong": [
+            "50.7140744571429",
+            "9.23030638571428"
+        ],
+        "status": "unknown",
+        "street": "L\u00f6nsstra\u00dfe",
+        "housenumber": "23"
+    },
+    {
+        "id": 154,
+        "latlong": [
+            "50.7150966714286",
+            "9.2265054"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 155,
+        "latlong": [
+            "50.7141461142857",
+            "9.22688794285714"
+        ],
+        "status": "unknown",
+        "street": "Brechtstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 156,
+        "latlong": [
+            "50.7144101",
+            "9.22753485714286"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 157,
+        "latlong": [
+            "50.7145387428571",
+            "9.2302255"
+        ],
+        "status": "unknown",
+        "street": "L\u00f6nsstra\u00dfe",
+        "housenumber": "25"
+    },
+    {
+        "id": 158,
+        "latlong": [
+            "50.7137362",
+            "9.2284278125"
+        ],
+        "status": "unknown",
+        "street": "Brechtstra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 159,
+        "latlong": [
+            "50.7140297875",
+            "9.2296933375"
+        ],
+        "status": "unknown",
+        "street": "L\u00f6nsstra\u00dfe",
+        "housenumber": "19"
+    },
+    {
+        "id": 160,
+        "latlong": [
+            "50.7146907",
+            "9.2285594875"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 161,
+        "latlong": [
+            "50.71507245",
+            "9.2252005375"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 162,
+        "latlong": [
+            "50.7144530375",
+            "9.2294767375"
+        ],
+        "status": "unknown",
+        "street": "L\u00f6nsstra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 163,
+        "latlong": [
+            "50.7148078555556",
+            "9.22807876666667"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 164,
+        "latlong": [
+            "50.7140076111111",
+            "9.22462336666667"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "22"
+    },
+    {
+        "id": 165,
+        "latlong": [
+            "50.7146960666667",
+            "9.2246741"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 166,
+        "latlong": [
+            "50.7152346888889",
+            "9.22368164444445"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 167,
+        "latlong": [
+            "50.7149111444444",
+            "9.22712048888889"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 168,
+        "latlong": [
+            "50.7150409111111",
+            "9.22431703333333"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 169,
+        "latlong": [
+            "50.7139568111111",
+            "9.22780066666667"
+        ],
+        "status": "unknown",
+        "street": "Brechtstra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 170,
+        "latlong": [
+            "50.7121919222222",
+            "9.22750336666667"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "4"
+    },
+    {
+        "id": 171,
+        "latlong": [
+            "50.7142591272727",
+            "9.22931740909091"
+        ],
+        "status": "unknown",
+        "street": "L\u00f6nsstra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 172,
+        "latlong": [
+            "50.7130331888889",
+            "9.22847382222222"
+        ],
+        "status": "unknown",
+        "street": "B\u00fcchnerweg",
+        "housenumber": "5"
+    },
+    {
+        "id": 173,
+        "latlong": [
+            "50.7148348555556",
+            "9.22759043333333"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 174,
+        "latlong": [
+            "50.7148633333333",
+            "9.22536468888889"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 175,
+        "latlong": [
+            "50.7149079",
+            "9.22601302222222"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 176,
+        "latlong": [
+            "50.7145311333333",
+            "9.22607977777778"
+        ],
+        "status": "unknown",
+        "street": "Heinestra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 177,
+        "latlong": [
+            "50.7143648888889",
+            "9.22465062222222"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "18"
+    },
+    {
+        "id": 178,
+        "latlong": [
+            "50.7145680444444",
+            "9.22535685555555"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 179,
+        "latlong": [
+            "50.7134927",
+            "9.2251981"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "15"
+    },
+    {
+        "id": 180,
+        "latlong": [
+            "50.7136931727273",
+            "9.22325437272727"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 181,
+        "latlong": [
+            "50.7141928909091",
+            "9.22358330909091"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 182,
+        "latlong": [
+            "50.7143366545455",
+            "9.22306749090909"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 183,
+        "latlong": [
+            "50.7130953916667",
+            "9.223081525"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "18"
+    },
+    {
+        "id": 184,
+        "latlong": [
+            "50.7135543538462",
+            "9.22270775384615"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "17"
+    },
+    {
+        "id": 185,
+        "latlong": [
+            "50.7149933384615",
+            "9.22201992307692"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "27"
+    },
+    {
+        "id": 186,
+        "latlong": [
+            "50.7140476076923",
+            "9.22346459230769"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 187,
+        "latlong": [
+            "50.7127631066667",
+            "9.22299685333333"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "44"
+    },
+    {
+        "id": 188,
+        "latlong": [
+            "50.71353514",
+            "9.22390398"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "19"
+    },
+    {
+        "id": 189,
+        "latlong": [
+            "50.71373564",
+            "9.22398898"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "17"
+    },
+    {
+        "id": 190,
+        "latlong": [
+            "50.71299312",
+            "9.22422044"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "32"
+    },
+    {
+        "id": 191,
+        "latlong": [
+            "50.71335368",
+            "9.2226667"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "19"
+    },
+    {
+        "id": 192,
+        "latlong": [
+            "50.71276902",
+            "9.223512"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "40"
+    },
+    {
+        "id": 193,
+        "latlong": [
+            "50.71336364",
+            "9.22384332"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "21"
+    },
+    {
+        "id": 194,
+        "latlong": [
+            "50.71483318",
+            "9.22409936"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 195,
+        "latlong": [
+            "50.71276444",
+            "9.22323812"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "42"
+    },
+    {
+        "id": 196,
+        "latlong": [
+            "50.7146581",
+            "9.2241561"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 197,
+        "latlong": [
+            "50.7133421428571",
+            "9.22310337142857"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 198,
+        "latlong": [
+            "50.71391342",
+            "9.22403796"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "15"
+    },
+    {
+        "id": 199,
+        "latlong": [
+            "50.7144298",
+            "9.22360252"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 200,
+        "latlong": [
+            "50.7138892571429",
+            "9.22442717142857"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "24"
+    },
+    {
+        "id": 201,
+        "latlong": [
+            "50.7150832",
+            "9.2228902"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 202,
+        "latlong": [
+            "50.71387646",
+            "9.2233604"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 203,
+        "latlong": [
+            "50.7127936",
+            "9.22403952857143"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "36"
+    },
+    {
+        "id": 204,
+        "latlong": [
+            "50.7128544571429",
+            "9.22471195714286"
+        ],
+        "status": "unknown",
+        "street": "L\u00f6nsstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 205,
+        "latlong": [
+            "50.7148400285714",
+            "9.22352867142857"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 206,
+        "latlong": [
+            "50.71524068",
+            "9.22237638"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "29"
+    },
+    {
+        "id": 207,
+        "latlong": [
+            "50.7127135571429",
+            "9.22379787142857"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "38"
+    },
+    {
+        "id": 208,
+        "latlong": [
+            "50.7139086714286",
+            "9.22292125714286"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 209,
+        "latlong": [
+            "50.7149315142857",
+            "9.22375717142857"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 210,
+        "latlong": [
+            "50.7146224285714",
+            "9.22359675714286"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 211,
+        "latlong": [
+            "50.7135363625",
+            "9.2231473"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 212,
+        "latlong": [
+            "50.7144565",
+            "9.2241636375"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 213,
+        "latlong": [
+            "50.7130791625",
+            "9.223355275"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "25"
+    },
+    {
+        "id": 214,
+        "latlong": [
+            "50.7143040666667",
+            "9.22417916666667"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 215,
+        "latlong": [
+            "50.7129661777778",
+            "9.22263656666667"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "23"
+    },
+    {
+        "id": 216,
+        "latlong": [
+            "50.7137242333333",
+            "9.22284497777778"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "15"
+    },
+    {
+        "id": 217,
+        "latlong": [
+            "50.7135306333333",
+            "9.22437795555556"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "28"
+    },
+    {
+        "id": 218,
+        "latlong": [
+            "50.7136839555556",
+            "9.22519584444444"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 219,
+        "latlong": [
+            "50.7141226777778",
+            "9.22280608888889"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 220,
+        "latlong": [
+            "50.7131141",
+            "9.22371806666667"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "23"
+    },
+    {
+        "id": 221,
+        "latlong": [
+            "50.7136806555556",
+            "9.22444211111111"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "26"
+    },
+    {
+        "id": 222,
+        "latlong": [
+            "50.7129713",
+            "9.22497442222222"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "19"
+    },
+    {
+        "id": 223,
+        "latlong": [
+            "50.7128069666667",
+            "9.22256334444445"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "25"
+    },
+    {
+        "id": 224,
+        "latlong": [
+            "50.7131309",
+            "9.22254821111111"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "21"
+    },
+    {
+        "id": 225,
+        "latlong": [
+            "50.7132479333333",
+            "9.22511116666667"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "17"
+    },
+    {
+        "id": 226,
+        "latlong": [
+            "50.7151973222222",
+            "9.22265925555556"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 227,
+        "latlong": [
+            "50.7148809777778",
+            "9.22151058888889"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "25"
+    },
+    {
+        "id": 228,
+        "latlong": [
+            "50.7132987777778",
+            "9.22432052222222"
+        ],
+        "status": "unknown",
+        "street": "Freiherr-von-Bibra-Stra\u00dfe",
+        "housenumber": "30"
+    },
+    {
+        "id": 229,
+        "latlong": [
+            "50.7125292111111",
+            "9.2222922"
+        ],
+        "status": "unknown",
+        "street": "Schlo\u00dfallee",
+        "housenumber": "8"
+    },
+    {
+        "id": 230,
+        "latlong": [
+            "50.7130457090909",
+            "9.22590049090909"
+        ],
+        "status": "unknown",
+        "street": "Stormstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 231,
+        "latlong": [
+            "50.71274224",
+            "9.22613866"
+        ],
+        "status": "unknown",
+        "street": "L\u00f6nsstra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 232,
+        "latlong": [
+            "50.7127905",
+            "9.22644146"
+        ],
+        "status": "unknown",
+        "street": "L\u00f6nsstra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 233,
+        "latlong": [
+            "50.71283222",
+            "9.22670638"
+        ],
+        "status": "unknown",
+        "street": "L\u00f6nsstra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 234,
+        "latlong": [
+            "50.7126548",
+            "9.22539264285714"
+        ],
+        "status": "unknown",
+        "street": "L\u00f6nsstra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 235,
+        "latlong": [
+            "50.7124741111111",
+            "9.22540495555555"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "9"
+    },
+    {
+        "id": 236,
+        "latlong": [
+            "50.7131237222222",
+            "9.22559454444444"
+        ],
+        "status": "unknown",
+        "street": "Stormstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 237,
+        "latlong": [
+            "50.71311",
+            "9.22621744444444"
+        ],
+        "status": "unknown",
+        "street": "Stormstra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 238,
+        "latlong": [
+            "50.7135686571429",
+            "9.22748714285714"
+        ],
+        "status": "unknown",
+        "street": "Brechtstra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 239,
+        "latlong": [
+            "50.7134516571429",
+            "9.22776821428571"
+        ],
+        "status": "unknown",
+        "street": "Brechtstra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 240,
+        "latlong": [
+            "50.713476",
+            "9.22575377142857"
+        ],
+        "status": "unknown",
+        "street": "Stormstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 241,
+        "latlong": [
+            "50.7137849666667",
+            "9.22615265555556"
+        ],
+        "status": "unknown",
+        "street": "Brechtstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 242,
+        "latlong": [
+            "50.71381114",
+            "9.22647816"
+        ],
+        "status": "unknown",
+        "street": "Brechtstra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 243,
+        "latlong": [
+            "50.7137881181818",
+            "9.22689865454545"
+        ],
+        "status": "unknown",
+        "street": "Brechtstra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 244,
+        "latlong": [
+            "50.7132651642857",
+            "9.22725385714286"
+        ],
+        "status": "unknown",
+        "street": "Stormstra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 245,
+        "latlong": [
+            "50.71370148",
+            "9.2271472"
+        ],
+        "status": "unknown",
+        "street": "Brechtstra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 246,
+        "latlong": [
+            "50.713413",
+            "9.22616238"
+        ],
+        "status": "unknown",
+        "street": "Stormstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 247,
+        "latlong": [
+            "50.71341496",
+            "9.22662014"
+        ],
+        "status": "unknown",
+        "street": "Stormstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 248,
+        "latlong": [
+            "50.71086128",
+            "9.22602478"
+        ],
+        "status": "unknown",
+        "street": "Rabenstrut",
+        "housenumber": "4"
+    },
+    {
+        "id": 249,
+        "latlong": [
+            "50.7116311461538",
+            "9.22657793846154"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "16"
+    },
+    {
+        "id": 250,
+        "latlong": [
+            "50.7111317230769",
+            "9.22527343846154"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "29"
+    },
+    {
+        "id": 251,
+        "latlong": [
+            "50.7113199153846",
+            "9.22527700769231"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "27"
+    },
+    {
+        "id": 252,
+        "latlong": [
+            "50.7120232411765",
+            "9.22673377647059"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "12"
+    },
+    {
+        "id": 253,
+        "latlong": [
+            "50.7119109421053",
+            "9.22588625263158"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "28"
+    },
+    {
+        "id": 254,
+        "latlong": [
+            "50.71183142",
+            "9.22534738"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "19"
+    },
+    {
+        "id": 255,
+        "latlong": [
+            "50.7121533",
+            "9.22538954285714"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "13"
+    },
+    {
+        "id": 256,
+        "latlong": [
+            "50.71167918",
+            "9.22539354"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "21"
+    },
+    {
+        "id": 257,
+        "latlong": [
+            "50.71204036",
+            "9.22536182"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "15"
+    },
+    {
+        "id": 258,
+        "latlong": [
+            "50.7107986",
+            "9.22625192"
+        ],
+        "status": "unknown",
+        "street": "Rabenstrut",
+        "housenumber": "6"
+    },
+    {
+        "id": 259,
+        "latlong": [
+            "50.7119126285714",
+            "9.22536684285714"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "17"
+    },
+    {
+        "id": 260,
+        "latlong": [
+            "50.7111511285714",
+            "9.22581342857143"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "40"
+    },
+    {
+        "id": 261,
+        "latlong": [
+            "50.7114029444444",
+            "9.22658095555555"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "38"
+    },
+    {
+        "id": 262,
+        "latlong": [
+            "50.7114387",
+            "9.22626511111111"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "36"
+    },
+    {
+        "id": 263,
+        "latlong": [
+            "50.71108008",
+            "9.22634611"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "44"
+    },
+    {
+        "id": 264,
+        "latlong": [
+            "50.7118197666667",
+            "9.226768975"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "14"
+    },
+    {
+        "id": 265,
+        "latlong": [
+            "50.7114861222222",
+            "9.22532014444444"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "25"
+    },
+    {
+        "id": 266,
+        "latlong": [
+            "50.71149056",
+            "9.22572374"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "32"
+    },
+    {
+        "id": 267,
+        "latlong": [
+            "50.7154741714286",
+            "9.22191861428571"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 268,
+        "latlong": [
+            "50.7156589",
+            "9.22184416"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 269,
+        "latlong": [
+            "50.7191464636364",
+            "9.22229219090909"
+        ],
+        "status": "unknown",
+        "street": "Am Berg",
+        "housenumber": "7"
+    },
+    {
+        "id": 270,
+        "latlong": [
+            "50.7188565545455",
+            "9.22159470909091"
+        ],
+        "status": "unknown",
+        "street": "M\u00e4rzeng\u00e4rten",
+        "housenumber": "3"
+    },
+    {
+        "id": 271,
+        "latlong": [
+            "50.7160565083333",
+            "9.22215930833333"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 272,
+        "latlong": [
+            "50.7163302916667",
+            "9.2220895"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 273,
+        "latlong": [
+            "50.7183671384615",
+            "9.22214109230769"
+        ],
+        "status": "unknown",
+        "street": "Am Berg",
+        "housenumber": "18"
+    },
+    {
+        "id": 274,
+        "latlong": [
+            "50.7177829846154",
+            "9.22106426923077"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "28"
+    },
+    {
+        "id": 275,
+        "latlong": [
+            "50.717833",
+            "9.2216922"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "21"
+    },
+    {
+        "id": 276,
+        "latlong": [
+            "50.7189516153846",
+            "9.22229027692308"
+        ],
+        "status": "unknown",
+        "street": "Am Berg",
+        "housenumber": "5"
+    },
+    {
+        "id": 277,
+        "latlong": [
+            "50.7157653461538",
+            "9.22220676153846"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 278,
+        "latlong": [
+            "50.7174427533333",
+            "9.22131033333333"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "24"
+    },
+    {
+        "id": 279,
+        "latlong": [
+            "50.7185962941177",
+            "9.22195455882353"
+        ],
+        "status": "unknown",
+        "street": "Am Berg",
+        "housenumber": "20"
+    },
+    {
+        "id": 280,
+        "latlong": [
+            "50.7175208526316",
+            "9.22186536842105"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "19"
+    },
+    {
+        "id": 281,
+        "latlong": [
+            "50.71610138",
+            "9.22173984"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 282,
+        "latlong": [
+            "50.71688472",
+            "9.22191274"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "15"
+    },
+    {
+        "id": 283,
+        "latlong": [
+            "50.71682176",
+            "9.2224735"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "13a"
+    },
+    {
+        "id": 284,
+        "latlong": [
+            "50.71820108",
+            "9.22227914"
+        ],
+        "status": "unknown",
+        "street": "Am Berg",
+        "housenumber": "16"
+    },
+    {
+        "id": 285,
+        "latlong": [
+            "50.71693028",
+            "9.22156944"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "18"
+    },
+    {
+        "id": 286,
+        "latlong": [
+            "50.71815088",
+            "9.22078372"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "34"
+    },
+    {
+        "id": 287,
+        "latlong": [
+            "50.7151875",
+            "9.2216545"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "32"
+    },
+    {
+        "id": 288,
+        "latlong": [
+            "50.71770784",
+            "9.22253002"
+        ],
+        "status": "unknown",
+        "street": "Am Berg",
+        "housenumber": "12"
+    },
+    {
+        "id": 289,
+        "latlong": [
+            "50.71617796",
+            "9.22207248"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 290,
+        "latlong": [
+            "50.71670556",
+            "9.22194584"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 291,
+        "latlong": [
+            "50.71651348",
+            "9.2216348"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 292,
+        "latlong": [
+            "50.71707604",
+            "9.22153548"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "20"
+    },
+    {
+        "id": 293,
+        "latlong": [
+            "50.71667918",
+            "9.22284636"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "11a"
+    },
+    {
+        "id": 294,
+        "latlong": [
+            "50.71590952",
+            "9.22211492"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 295,
+        "latlong": [
+            "50.7165582571429",
+            "9.22195854285714"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 296,
+        "latlong": [
+            "50.7166528571429",
+            "9.22158824285714"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 297,
+        "latlong": [
+            "50.7163304571429",
+            "9.22169008571428"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 298,
+        "latlong": [
+            "50.7183017857143",
+            "9.22075421428571"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "36"
+    },
+    {
+        "id": 299,
+        "latlong": [
+            "50.718993525",
+            "9.2219114375"
+        ],
+        "status": "unknown",
+        "street": "M\u00e4rzeng\u00e4rten",
+        "housenumber": "1"
+    },
+    {
+        "id": 300,
+        "latlong": [
+            "50.7179406777778",
+            "9.22231977777778"
+        ],
+        "status": "unknown",
+        "street": "Am Berg",
+        "housenumber": "14"
+    },
+    {
+        "id": 301,
+        "latlong": [
+            "50.7167658111111",
+            "9.22153585555555"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 302,
+        "latlong": [
+            "50.7176198666667",
+            "9.22119154444444"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "26"
+    },
+    {
+        "id": 303,
+        "latlong": [
+            "50.7186634",
+            "9.22087973333333"
+        ],
+        "status": "unknown",
+        "street": "M\u00e4rzeng\u00e4rten",
+        "housenumber": "7"
+    },
+    {
+        "id": 304,
+        "latlong": [
+            "50.7188259888889",
+            "9.22123885555556"
+        ],
+        "status": "unknown",
+        "street": "M\u00e4rzeng\u00e4rten",
+        "housenumber": "5"
+    },
+    {
+        "id": 305,
+        "latlong": [
+            "50.71436529",
+            "9.22061928"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 306,
+        "latlong": [
+            "50.7143984363636",
+            "9.21996069090909"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "19"
+    },
+    {
+        "id": 307,
+        "latlong": [
+            "50.71370452",
+            "9.22011316"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 308,
+        "latlong": [
+            "50.7141559",
+            "9.2194744"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "15"
+    },
+    {
+        "id": 309,
+        "latlong": [
+            "50.71361138",
+            "9.22090516"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 310,
+        "latlong": [
+            "50.71343464",
+            "9.22090414"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 311,
+        "latlong": [
+            "50.71408434",
+            "9.22065884"
+        ],
+        "status": "unknown",
+        "street": "Schulstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 312,
+        "latlong": [
+            "50.714309",
+            "9.21957192"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "17"
+    },
+    {
+        "id": 313,
+        "latlong": [
+            "50.7144487",
+            "9.22034702"
+        ],
+        "status": "unknown",
+        "street": "Schulstra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 314,
+        "latlong": [
+            "50.7140898",
+            "9.21964878"
+        ],
+        "status": "unknown",
+        "street": "Schulstra\u00dfe",
+        "housenumber": "2a"
+    },
+    {
+        "id": 315,
+        "latlong": [
+            "50.71400166",
+            "9.22026548"
+        ],
+        "status": "unknown",
+        "street": "Schulstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 316,
+        "latlong": [
+            "50.7140681",
+            "9.21941041428571"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 317,
+        "latlong": [
+            "50.7133321285714",
+            "9.22056115714286"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 318,
+        "latlong": [
+            "50.7141406285714",
+            "9.22003905714286"
+        ],
+        "status": "unknown",
+        "street": "Schulstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 319,
+        "latlong": [
+            "50.7143397375",
+            "9.22032485"
+        ],
+        "status": "unknown",
+        "street": "Schulstra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 320,
+        "latlong": [
+            "50.71405695",
+            "9.220969325"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 321,
+        "latlong": [
+            "50.7134276",
+            "9.22054457777778"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 322,
+        "latlong": [
+            "50.7140045333333",
+            "9.21954941111111"
+        ],
+        "status": "unknown",
+        "street": "Schulstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 323,
+        "latlong": [
+            "50.7132636444444",
+            "9.22094687777778"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 324,
+        "latlong": [
+            "50.7127945555556",
+            "9.22091774444444"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "18"
+    },
+    {
+        "id": 325,
+        "latlong": [
+            "50.7130139444444",
+            "9.22090311111111"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 326,
+        "latlong": [
+            "50.7160624230769",
+            "9.21790055384615"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "11,11a"
+    },
+    {
+        "id": 327,
+        "latlong": [
+            "50.7154426545455",
+            "9.21776649090909"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 328,
+        "latlong": [
+            "50.7148939727273",
+            "9.21951107272727"
+        ],
+        "status": "unknown",
+        "street": "Inselweg",
+        "housenumber": "20"
+    },
+    {
+        "id": 329,
+        "latlong": [
+            "50.7152092545454",
+            "9.21941714545454"
+        ],
+        "status": "unknown",
+        "street": "Inselweg",
+        "housenumber": "14"
+    },
+    {
+        "id": 330,
+        "latlong": [
+            "50.7150838444444",
+            "9.21792216666667"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 331,
+        "latlong": [
+            "50.71526342",
+            "9.21990182"
+        ],
+        "status": "unknown",
+        "street": "Inselweg",
+        "housenumber": "10"
+    },
+    {
+        "id": 332,
+        "latlong": [
+            "50.7153884",
+            "9.22017906"
+        ],
+        "status": "unknown",
+        "street": "Inselweg",
+        "housenumber": "8"
+    },
+    {
+        "id": 333,
+        "latlong": [
+            "50.7163237",
+            "9.22001552"
+        ],
+        "status": "unknown",
+        "street": "Inselweg",
+        "housenumber": "17"
+    },
+    {
+        "id": 334,
+        "latlong": [
+            "50.7151917285714",
+            "9.22039624285714"
+        ],
+        "status": "unknown",
+        "street": "Inselweg",
+        "housenumber": "6"
+    },
+    {
+        "id": 335,
+        "latlong": [
+            "50.7169816714286",
+            "9.21932377142857"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 336,
+        "latlong": [
+            "50.7149784",
+            "9.2209991375"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "30"
+    },
+    {
+        "id": 337,
+        "latlong": [
+            "50.7157491666667",
+            "9.21779807777778"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 338,
+        "latlong": [
+            "50.7157659555556",
+            "9.22041698888889"
+        ],
+        "status": "unknown",
+        "street": "Inselweg",
+        "housenumber": "9"
+    },
+    {
+        "id": 339,
+        "latlong": [
+            "50.7141974833333",
+            "9.21791575"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 340,
+        "latlong": [
+            "50.7149105090909",
+            "9.22033760909091"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "24"
+    },
+    {
+        "id": 341,
+        "latlong": [
+            "50.7147288090909",
+            "9.21998689090909"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "20"
+    },
+    {
+        "id": 342,
+        "latlong": [
+            "50.7144616090909",
+            "9.21860196363636"
+        ],
+        "status": "unknown",
+        "street": "Alter Talweg",
+        "housenumber": "3"
+    },
+    {
+        "id": 343,
+        "latlong": [
+            "50.7146964916667",
+            "9.21956324166667"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 344,
+        "latlong": [
+            "50.7146839857143",
+            "9.21982465714286"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "18"
+    },
+    {
+        "id": 345,
+        "latlong": [
+            "50.7149653888889",
+            "9.22049942222222"
+        ],
+        "status": "unknown",
+        "street": "Inselweg",
+        "housenumber": "4"
+    },
+    {
+        "id": 346,
+        "latlong": [
+            "50.7141428826087",
+            "9.21870741739131"
+        ],
+        "status": "unknown",
+        "street": "Alter Talweg",
+        "housenumber": "1"
+    },
+    {
+        "id": 347,
+        "latlong": [
+            "50.71457178",
+            "9.2192848"
+        ],
+        "status": "unknown",
+        "street": "Alter Talweg",
+        "housenumber": "9"
+    },
+    {
+        "id": 348,
+        "latlong": [
+            "50.7147564",
+            "9.22038028"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "24"
+    },
+    {
+        "id": 349,
+        "latlong": [
+            "50.7138481714286",
+            "9.21862315714286"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 350,
+        "latlong": [
+            "50.71458922",
+            "9.21939666"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 351,
+        "latlong": [
+            "50.71442402",
+            "9.21887354"
+        ],
+        "status": "unknown",
+        "street": "Alter Talweg",
+        "housenumber": "5"
+    },
+    {
+        "id": 352,
+        "latlong": [
+            "50.71453682",
+            "9.21919004"
+        ],
+        "status": "unknown",
+        "street": "Alter Talweg",
+        "housenumber": "8"
+    },
+    {
+        "id": 353,
+        "latlong": [
+            "50.71367842",
+            "9.21852774"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 354,
+        "latlong": [
+            "50.71371956",
+            "9.21843014"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 355,
+        "latlong": [
+            "50.71442518",
+            "9.21878512"
+        ],
+        "status": "unknown",
+        "street": "Alter Talweg",
+        "housenumber": "4"
+    },
+    {
+        "id": 356,
+        "latlong": [
+            "50.7143527142857",
+            "9.21872284285714"
+        ],
+        "status": "unknown",
+        "street": "Alter Talweg",
+        "housenumber": "2"
+    },
+    {
+        "id": 357,
+        "latlong": [
+            "50.7137284285714",
+            "9.21860967142857"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 358,
+        "latlong": [
+            "50.7146601428571",
+            "9.21946985714286"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 359,
+        "latlong": [
+            "50.7145017142857",
+            "9.21904945714286"
+        ],
+        "status": "unknown",
+        "street": "Alter Talweg",
+        "housenumber": "7"
+    },
+    {
+        "id": 360,
+        "latlong": [
+            "50.7148238857143",
+            "9.22057287142857"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "26"
+    },
+    {
+        "id": 361,
+        "latlong": [
+            "50.7146300222222",
+            "9.21896911111111"
+        ],
+        "status": "unknown",
+        "street": "Alter Talweg",
+        "housenumber": "7a"
+    },
+    {
+        "id": 362,
+        "latlong": [
+            "50.7147313777778",
+            "9.22015311111111"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "22"
+    },
+    {
+        "id": 363,
+        "latlong": [
+            "50.7213409818182",
+            "9.21404914545455"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "28"
+    },
+    {
+        "id": 364,
+        "latlong": [
+            "50.7190017555556",
+            "9.21615245555555"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "17"
+    },
+    {
+        "id": 365,
+        "latlong": [
+            "50.71686126",
+            "9.21794528"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "0"
+    },
+    {
+        "id": 366,
+        "latlong": [
+            "50.7084013909091",
+            "9.22106985454545"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "62"
+    },
+    {
+        "id": 367,
+        "latlong": [
+            "50.7120071363636",
+            "9.22105403636364"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "22"
+    },
+    {
+        "id": 368,
+        "latlong": [
+            "50.7073933818182",
+            "9.22108509090909"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "74"
+    },
+    {
+        "id": 369,
+        "latlong": [
+            "50.7124249692308",
+            "9.22093214615384"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "20"
+    },
+    {
+        "id": 370,
+        "latlong": [
+            "50.7081716933333",
+            "9.22252531333333"
+        ],
+        "status": "unknown",
+        "street": "Kneippstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 371,
+        "latlong": [
+            "50.7097585210526",
+            "9.22102858947368"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "48a"
+    },
+    {
+        "id": 372,
+        "latlong": [
+            "50.708897",
+            "9.2210911"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "56"
+    },
+    {
+        "id": 373,
+        "latlong": [
+            "50.71075804",
+            "9.22108836"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "42"
+    },
+    {
+        "id": 374,
+        "latlong": [
+            "50.71032146",
+            "9.22108528"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "46"
+    },
+    {
+        "id": 375,
+        "latlong": [
+            "50.7078284",
+            "9.2210958"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "68"
+    },
+    {
+        "id": 376,
+        "latlong": [
+            "50.7109888833333",
+            "9.22091246666667"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "40"
+    },
+    {
+        "id": 377,
+        "latlong": [
+            "50.71154264",
+            "9.22094788"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "32"
+    },
+    {
+        "id": 378,
+        "latlong": [
+            "50.7100846",
+            "9.2210857"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "48"
+    },
+    {
+        "id": 379,
+        "latlong": [
+            "50.7076404142857",
+            "9.22104581428571"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "70"
+    },
+    {
+        "id": 380,
+        "latlong": [
+            "50.7122172571429",
+            "9.22099832857143"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "20b"
+    },
+    {
+        "id": 381,
+        "latlong": [
+            "50.7111575285714",
+            "9.22099941428571"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "38"
+    },
+    {
+        "id": 382,
+        "latlong": [
+            "50.7085897285714",
+            "9.2210727"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "60"
+    },
+    {
+        "id": 383,
+        "latlong": [
+            "50.7091439625",
+            "9.2210487"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "54"
+    },
+    {
+        "id": 384,
+        "latlong": [
+            "50.7113011875",
+            "9.2208980375"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "36"
+    },
+    {
+        "id": 385,
+        "latlong": [
+            "50.7114189888889",
+            "9.22097577777778"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "34"
+    },
+    {
+        "id": 386,
+        "latlong": [
+            "50.7067279222222",
+            "9.22112962222222"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "80"
+    },
+    {
+        "id": 387,
+        "latlong": [
+            "50.7082287222222",
+            "9.22099108888889"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "64"
+    },
+    {
+        "id": 388,
+        "latlong": [
+            "50.7070230111111",
+            "9.22111593333333"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "78"
+    },
+    {
+        "id": 389,
+        "latlong": [
+            "50.7105067666667",
+            "9.22110293333333"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "44"
+    },
+    {
+        "id": 390,
+        "latlong": [
+            "50.7086980333333",
+            "9.2210776"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "58"
+    },
+    {
+        "id": 391,
+        "latlong": [
+            "50.7099565727273",
+            "9.22042021818182"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "29a"
+    },
+    {
+        "id": 392,
+        "latlong": [
+            "50.7126884272727",
+            "9.22051074545455"
+        ],
+        "status": "unknown",
+        "street": "Schlo\u00dfallee",
+        "housenumber": "19"
+    },
+    {
+        "id": 393,
+        "latlong": [
+            "50.7103044545455",
+            "9.22021838181818"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "27"
+    },
+    {
+        "id": 394,
+        "latlong": [
+            "50.7095889",
+            "9.220212616"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "29"
+    },
+    {
+        "id": 395,
+        "latlong": [
+            "50.71141636",
+            "9.21991102"
+        ],
+        "status": "unknown",
+        "street": "Ringstra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 396,
+        "latlong": [
+            "50.71275872",
+            "9.22033632"
+        ],
+        "status": "unknown",
+        "street": "Schlo\u00dfallee",
+        "housenumber": "17"
+    },
+    {
+        "id": 397,
+        "latlong": [
+            "50.71185422",
+            "9.22020872"
+        ],
+        "status": "unknown",
+        "street": "Ringstra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 398,
+        "latlong": [
+            "50.71123388",
+            "9.22059616"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "21"
+    },
+    {
+        "id": 399,
+        "latlong": [
+            "50.71164522",
+            "9.22057592"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "17"
+    },
+    {
+        "id": 400,
+        "latlong": [
+            "50.7119068",
+            "9.22059204"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "15"
+    },
+    {
+        "id": 401,
+        "latlong": [
+            "50.7126709142857",
+            "9.21984132857143"
+        ],
+        "status": "unknown",
+        "street": "Schlo\u00dfallee",
+        "housenumber": "15"
+    },
+    {
+        "id": 402,
+        "latlong": [
+            "50.711405275",
+            "9.220503475"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "19"
+    },
+    {
+        "id": 403,
+        "latlong": [
+            "50.7117144",
+            "9.21988183333333"
+        ],
+        "status": "unknown",
+        "street": "Ringstra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 404,
+        "latlong": [
+            "50.7078114666667",
+            "9.22004568888889"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "39"
+    },
+    {
+        "id": 405,
+        "latlong": [
+            "50.7073737222222",
+            "9.21995493333333"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "41"
+    },
+    {
+        "id": 406,
+        "latlong": [
+            "50.7120790888889",
+            "9.22050881111111"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 407,
+        "latlong": [
+            "50.7110359555556",
+            "9.22046493333333"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "23"
+    },
+    {
+        "id": 408,
+        "latlong": [
+            "50.7110911666667",
+            "9.21984157777778"
+        ],
+        "status": "unknown",
+        "street": "Ringstra\u00dfe",
+        "housenumber": "13a"
+    },
+    {
+        "id": 409,
+        "latlong": [
+            "50.71152606",
+            "9.22022736"
+        ],
+        "status": "unknown",
+        "street": "Ringstra\u00dfe",
+        "housenumber": "15"
+    },
+    {
+        "id": 410,
+        "latlong": [
+            "50.7110198222222",
+            "9.21867132222222"
+        ],
+        "status": "unknown",
+        "street": "Ringstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 411,
+        "latlong": [
+            "50.7109925777778",
+            "9.21720232222222"
+        ],
+        "status": "unknown",
+        "street": "Herrnstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 412,
+        "latlong": [
+            "50.7109740333333",
+            "9.21781594"
+        ],
+        "status": "unknown",
+        "street": "Herrnstra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 413,
+        "latlong": [
+            "50.7107620727273",
+            "9.21823283636364"
+        ],
+        "status": "unknown",
+        "street": "Herrnstra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 414,
+        "latlong": [
+            "50.711088975",
+            "9.2169498125"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "24"
+    },
+    {
+        "id": 415,
+        "latlong": [
+            "50.71142894",
+            "9.2165384"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "25"
+    },
+    {
+        "id": 416,
+        "latlong": [
+            "50.7109130333333",
+            "9.21693305555555"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "26"
+    },
+    {
+        "id": 417,
+        "latlong": [
+            "50.7113650454545",
+            "9.21619866363636"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "27a"
+    },
+    {
+        "id": 418,
+        "latlong": [
+            "50.7107265571428",
+            "9.21686562857143"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "28"
+    },
+    {
+        "id": 419,
+        "latlong": [
+            "50.7107702555556",
+            "9.21740095555556"
+        ],
+        "status": "unknown",
+        "street": "Herrnstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 420,
+        "latlong": [
+            "50.71057598",
+            "9.21701944"
+        ],
+        "status": "unknown",
+        "street": "Ringstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 421,
+        "latlong": [
+            "50.711208475",
+            "9.217358425"
+        ],
+        "status": "unknown",
+        "street": "Herrnstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 422,
+        "latlong": [
+            "50.71073042",
+            "9.21766826"
+        ],
+        "status": "unknown",
+        "street": "Herrnstra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 423,
+        "latlong": [
+            "50.7108424307692",
+            "9.21800307692308"
+        ],
+        "status": "unknown",
+        "street": "Ringstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 424,
+        "latlong": [
+            "50.711140575",
+            "9.2174302125"
+        ],
+        "status": "unknown",
+        "street": "Herrnstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 425,
+        "latlong": [
+            "50.7112047230769",
+            "9.21908543076923"
+        ],
+        "status": "unknown",
+        "street": "Ringstra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 426,
+        "latlong": [
+            "50.7104285444444",
+            "9.21818546666667"
+        ],
+        "status": "unknown",
+        "street": "Herrnstra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 427,
+        "latlong": [
+            "50.7111017545455",
+            "9.21767256363636"
+        ],
+        "status": "unknown",
+        "street": "Herrnstra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 428,
+        "latlong": [
+            "50.7112469777778",
+            "9.21842917777778"
+        ],
+        "status": "unknown",
+        "street": "Ringstra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 429,
+        "latlong": [
+            "50.71127454",
+            "9.2193641"
+        ],
+        "status": "unknown",
+        "street": "Ringstra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 430,
+        "latlong": [
+            "50.7113139714286",
+            "9.21715861428571"
+        ],
+        "status": "unknown",
+        "street": "Herrnstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 431,
+        "latlong": [
+            "50.710411",
+            "9.21653636"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "34"
+    },
+    {
+        "id": 432,
+        "latlong": [
+            "50.7112528454545",
+            "9.21797204545454"
+        ],
+        "status": "unknown",
+        "street": "Am Ocherbach",
+        "housenumber": "6"
+    },
+    {
+        "id": 433,
+        "latlong": [
+            "50.7110273090909",
+            "9.21937551818182"
+        ],
+        "status": "unknown",
+        "street": "Ringstra\u00dfe",
+        "housenumber": "9a"
+    },
+    {
+        "id": 434,
+        "latlong": [
+            "50.7117139076923",
+            "9.21701091538462"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "18"
+    },
+    {
+        "id": 435,
+        "latlong": [
+            "50.7105143125",
+            "9.2165452375"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "30"
+    },
+    {
+        "id": 436,
+        "latlong": [
+            "50.7103222",
+            "9.21596674"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "35"
+    },
+    {
+        "id": 437,
+        "latlong": [
+            "50.71006034",
+            "9.216356"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "36a"
+    },
+    {
+        "id": 438,
+        "latlong": [
+            "50.7114629181818",
+            "9.21900888181818"
+        ],
+        "status": "unknown",
+        "street": "Ringstra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 439,
+        "latlong": [
+            "50.71203295",
+            "9.21742336"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 440,
+        "latlong": [
+            "50.7118125818182",
+            "9.21919864545455"
+        ],
+        "status": "unknown",
+        "street": "Am Eckstein",
+        "housenumber": "4"
+    },
+    {
+        "id": 441,
+        "latlong": [
+            "50.712445173913",
+            "9.21827726956522"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 442,
+        "latlong": [
+            "50.71175592",
+            "9.21830036"
+        ],
+        "status": "unknown",
+        "street": "Am Ocherbach",
+        "housenumber": "3"
+    },
+    {
+        "id": 443,
+        "latlong": [
+            "50.71258762",
+            "9.21798628"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 444,
+        "latlong": [
+            "50.71218124",
+            "9.21955514"
+        ],
+        "status": "unknown",
+        "street": "Am Eckstein",
+        "housenumber": "1"
+    },
+    {
+        "id": 445,
+        "latlong": [
+            "50.71231214",
+            "9.21770662"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 446,
+        "latlong": [
+            "50.7119162857143",
+            "9.21896975714286"
+        ],
+        "status": "unknown",
+        "street": "Am Eckstein",
+        "housenumber": "3"
+    },
+    {
+        "id": 447,
+        "latlong": [
+            "50.7118509571429",
+            "9.2194021"
+        ],
+        "status": "unknown",
+        "street": "Am Eckstein",
+        "housenumber": "2"
+    },
+    {
+        "id": 448,
+        "latlong": [
+            "50.7118223571429",
+            "9.21709428571428"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 449,
+        "latlong": [
+            "50.7118507222222",
+            "9.2184381"
+        ],
+        "status": "unknown",
+        "street": "Am Ocherbach",
+        "housenumber": "2"
+    },
+    {
+        "id": 450,
+        "latlong": [
+            "50.7125741111111",
+            "9.21923006666666"
+        ],
+        "status": "unknown",
+        "street": "Schlo\u00dfallee",
+        "housenumber": "13"
+    },
+    {
+        "id": 451,
+        "latlong": [
+            "50.71219644",
+            "9.21749194"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 452,
+        "latlong": [
+            "50.7128166777778",
+            "9.21868652222222"
+        ],
+        "status": "unknown",
+        "street": "Schlo\u00dfallee",
+        "housenumber": "5"
+    },
+    {
+        "id": 453,
+        "latlong": [
+            "50.71333048",
+            "9.21857032"
+        ],
+        "status": "unknown",
+        "street": "Schlo\u00dfallee",
+        "housenumber": "1"
+    },
+    {
+        "id": 454,
+        "latlong": [
+            "50.7130565571429",
+            "9.21857402857143"
+        ],
+        "status": "unknown",
+        "street": "Schlo\u00dfallee",
+        "housenumber": "3"
+    },
+    {
+        "id": 455,
+        "latlong": [
+            "50.71417128",
+            "9.22035724"
+        ],
+        "status": "unknown",
+        "street": "Schulstra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 456,
+        "latlong": [
+            "50.713431975",
+            "9.2184945125"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 457,
+        "latlong": [
+            "50.7131852",
+            "9.2182502"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 458,
+        "latlong": [
+            "50.713310225",
+            "9.218323775"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 459,
+        "latlong": [
+            "50.7129360545455",
+            "9.21660945454545"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 460,
+        "latlong": [
+            "50.7125466666667",
+            "9.21656078333333"
+        ],
+        "status": "unknown",
+        "street": "Mittelgasse",
+        "housenumber": "4a"
+    },
+    {
+        "id": 461,
+        "latlong": [
+            "50.7129942",
+            "9.21744548571428"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 462,
+        "latlong": [
+            "50.7123524933333",
+            "9.21693891333333"
+        ],
+        "status": "unknown",
+        "street": "Mittelgasse",
+        "housenumber": "2"
+    },
+    {
+        "id": 463,
+        "latlong": [
+            "50.71184906",
+            "9.21666996"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "21"
+    },
+    {
+        "id": 464,
+        "latlong": [
+            "50.71293904",
+            "9.2156949"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 465,
+        "latlong": [
+            "50.7125158",
+            "9.21578594"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 466,
+        "latlong": [
+            "50.71301248",
+            "9.21779014"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 467,
+        "latlong": [
+            "50.71363774",
+            "9.21749928"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 468,
+        "latlong": [
+            "50.7123897333333",
+            "9.21730093333333"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 469,
+        "latlong": [
+            "50.7129371",
+            "9.21760894285714"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 470,
+        "latlong": [
+            "50.7131152857143",
+            "9.21712308571429"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 471,
+        "latlong": [
+            "50.7129077285714",
+            "9.21677058571428"
+        ],
+        "status": "unknown",
+        "street": "Mittelgasse",
+        "housenumber": "6"
+    },
+    {
+        "id": 472,
+        "latlong": [
+            "50.7123176666667",
+            "9.21583491111111"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 473,
+        "latlong": [
+            "50.71195205",
+            "9.21666148333333"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "19"
+    },
+    {
+        "id": 474,
+        "latlong": [
+            "50.7117383666667",
+            "9.21655245555555"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "23"
+    },
+    {
+        "id": 475,
+        "latlong": [
+            "50.7130128555555",
+            "9.21644792222222"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 476,
+        "latlong": [
+            "50.72778952",
+            "9.19945864"
+        ],
+        "status": "unknown",
+        "street": "Am Bahnhof",
+        "housenumber": "9"
+    },
+    {
+        "id": 477,
+        "latlong": [
+            "50.7282632818182",
+            "9.19940322727273"
+        ],
+        "status": "unknown",
+        "street": "Gartenstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 478,
+        "latlong": [
+            "50.72775536",
+            "9.19867324"
+        ],
+        "status": "unknown",
+        "street": "Wiesenstra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 479,
+        "latlong": [
+            "50.72788898",
+            "9.19846526"
+        ],
+        "status": "unknown",
+        "street": "Wiesenstra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 480,
+        "latlong": [
+            "50.72806558",
+            "9.19987834"
+        ],
+        "status": "unknown",
+        "street": "Gartenstra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 481,
+        "latlong": [
+            "50.7276311333333",
+            "9.19889561111111"
+        ],
+        "status": "unknown",
+        "street": "Wiesenstra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 482,
+        "latlong": [
+            "50.71344206",
+            "9.21704516"
+        ],
+        "status": "unknown",
+        "street": "Ecke",
+        "housenumber": "1"
+    },
+    {
+        "id": 483,
+        "latlong": [
+            "50.7142342052632",
+            "9.21636218947368"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 484,
+        "latlong": [
+            "50.714091",
+            "9.2172929"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 485,
+        "latlong": [
+            "50.7133064857143",
+            "9.21681292857143"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 486,
+        "latlong": [
+            "50.7133280857143",
+            "9.2169642"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 487,
+        "latlong": [
+            "50.7139271333333",
+            "9.21721466666667"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 488,
+        "latlong": [
+            "50.7138045111111",
+            "9.21748623333334"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 489,
+        "latlong": [
+            "50.7142768444444",
+            "9.21698108888889"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 490,
+        "latlong": [
+            "50.71596988",
+            "9.21728166"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "18"
+    },
+    {
+        "id": 491,
+        "latlong": [
+            "50.7142193",
+            "9.21513692"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 492,
+        "latlong": [
+            "50.7140300714286",
+            "9.21504475714286"
+        ],
+        "status": "unknown",
+        "street": "J\u00e4gerstra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 493,
+        "latlong": [
+            "50.7164551222222",
+            "9.21684254444444"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "20"
+    },
+    {
+        "id": 494,
+        "latlong": [
+            "50.7103218",
+            "9.21467903333333"
+        ],
+        "status": "unknown",
+        "street": "Im Weingarten",
+        "housenumber": "9"
+    },
+    {
+        "id": 495,
+        "latlong": [
+            "50.7122346619048",
+            "9.21681645238095"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "15"
+    },
+    {
+        "id": 496,
+        "latlong": [
+            "50.7152490571429",
+            "9.21707118571429"
+        ],
+        "status": "unknown",
+        "street": "Jahnstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 497,
+        "latlong": [
+            "50.7154391818182",
+            "9.21696210909091"
+        ],
+        "status": "unknown",
+        "street": "Jahnstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 498,
+        "latlong": [
+            "50.7119894",
+            "9.21667334"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "17"
+    },
+    {
+        "id": 499,
+        "latlong": [
+            "50.7112296777778",
+            "9.21620597777778"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "27"
+    },
+    {
+        "id": 500,
+        "latlong": [
+            "50.7116142285714",
+            "9.21701665714285"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "20"
+    },
+    {
+        "id": 501,
+        "latlong": [
+            "50.71213095",
+            "9.217440675"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 502,
+        "latlong": [
+            "50.71145474",
+            "9.21694126"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "22"
+    },
+    {
+        "id": 503,
+        "latlong": [
+            "50.71200224",
+            "9.2172626"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 504,
+        "latlong": [
+            "50.7102281555556",
+            "9.21687311111111"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "34"
+    },
+    {
+        "id": 505,
+        "latlong": [
+            "50.7101165777778",
+            "9.21621097777778"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "36"
+    },
+    {
+        "id": 506,
+        "latlong": [
+            "50.7124486777778",
+            "9.21333381111111"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "25"
+    },
+    {
+        "id": 507,
+        "latlong": [
+            "50.713533",
+            "9.21389801818182"
+        ],
+        "status": "unknown",
+        "street": "Am Hofacker",
+        "housenumber": "11"
+    },
+    {
+        "id": 508,
+        "latlong": [
+            "50.71057298",
+            "9.21584366"
+        ],
+        "status": "unknown",
+        "street": "Wartgasse",
+        "housenumber": "4"
+    },
+    {
+        "id": 509,
+        "latlong": [
+            "50.7104952454546",
+            "9.21545567272727"
+        ],
+        "status": "unknown",
+        "street": "Wartgasse",
+        "housenumber": "5"
+    },
+    {
+        "id": 510,
+        "latlong": [
+            "50.7106989416667",
+            "9.21576179166667"
+        ],
+        "status": "unknown",
+        "street": "Wartgasse",
+        "housenumber": "3"
+    },
+    {
+        "id": 511,
+        "latlong": [
+            "50.71073574",
+            "9.21811758"
+        ],
+        "status": "unknown",
+        "street": "Herrnstra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 512,
+        "latlong": [
+            "50.7107356785714",
+            "9.21843764285714"
+        ],
+        "status": "unknown",
+        "street": "Herrnstra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 513,
+        "latlong": [
+            "50.71351938",
+            "9.21686766"
+        ],
+        "status": "unknown",
+        "street": "Ecke",
+        "housenumber": "2"
+    },
+    {
+        "id": 514,
+        "latlong": [
+            "50.7133142",
+            "9.21658848"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 515,
+        "latlong": [
+            "50.71259004",
+            "9.21744044"
+        ],
+        "status": "unknown",
+        "street": "Gr\u00fcnberger Stra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 516,
+        "latlong": [
+            "50.7147161111111",
+            "9.21971288888889"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 517,
+        "latlong": [
+            "50.71444936",
+            "9.21895052"
+        ],
+        "status": "unknown",
+        "street": "Alter Talweg",
+        "housenumber": "6"
+    },
+    {
+        "id": 518,
+        "latlong": [
+            "50.7148562",
+            "9.22067676"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "28"
+    },
+    {
+        "id": 519,
+        "latlong": [
+            "50.7151455571429",
+            "9.22226362857143"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "29a"
+    },
+    {
+        "id": 520,
+        "latlong": [
+            "50.71437008",
+            "9.21976602"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "19"
+    },
+    {
+        "id": 521,
+        "latlong": [
+            "50.7109114166667",
+            "9.22573463333333"
+        ],
+        "status": "unknown",
+        "street": "Rabenstrut",
+        "housenumber": "2a"
+    },
+    {
+        "id": 522,
+        "latlong": [
+            "50.7109628833333",
+            "9.22567536666667"
+        ],
+        "status": "unknown",
+        "street": "Rabenstrut",
+        "housenumber": "2"
+    },
+    {
+        "id": 523,
+        "latlong": [
+            "50.712954",
+            "9.2204629125"
+        ],
+        "status": "unknown",
+        "street": "Schlo\u00dfallee",
+        "housenumber": "2"
+    },
+    {
+        "id": 524,
+        "latlong": [
+            "50.7122015357143",
+            "9.22311387857143"
+        ],
+        "status": "unknown",
+        "street": "Schlo\u00dfallee",
+        "housenumber": "14"
+    },
+    {
+        "id": 525,
+        "latlong": [
+            "50.7131346142857",
+            "9.22051494285714"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 526,
+        "latlong": [
+            "50.7132930666667",
+            "9.21927966666667"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 527,
+        "latlong": [
+            "50.7158652666667",
+            "9.22176306666667"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 528,
+        "latlong": [
+            "50.71240858",
+            "9.21671005"
+        ],
+        "status": "unknown",
+        "street": "Mittelgasse",
+        "housenumber": "4"
+    },
+    {
+        "id": 529,
+        "latlong": [
+            "50.7152300666667",
+            "9.2209436"
+        ],
+        "status": "unknown",
+        "street": "Inselweg",
+        "housenumber": "3"
+    },
+    {
+        "id": 530,
+        "latlong": [
+            "50.7154144892857",
+            "9.21894590357143"
+        ],
+        "status": "unknown",
+        "street": "Inselweg",
+        "housenumber": "18"
+    },
+    {
+        "id": 531,
+        "latlong": [
+            "50.7151774",
+            "9.22076738"
+        ],
+        "status": "unknown",
+        "street": "Inselweg",
+        "housenumber": "7"
+    },
+    {
+        "id": 532,
+        "latlong": [
+            "50.7158879166667",
+            "9.21958219444444"
+        ],
+        "status": "unknown",
+        "street": "Inselweg",
+        "housenumber": "15"
+    },
+    {
+        "id": 533,
+        "latlong": [
+            "50.7149203",
+            "9.22054104285714"
+        ],
+        "status": "unknown",
+        "street": "Inselweg",
+        "housenumber": "2"
+    },
+    {
+        "id": 534,
+        "latlong": [
+            "50.7152292166667",
+            "9.22087421666667"
+        ],
+        "status": "unknown",
+        "street": "Inselweg",
+        "housenumber": "5"
+    },
+    {
+        "id": 535,
+        "latlong": [
+            "50.71520038",
+            "9.22102278"
+        ],
+        "status": "unknown",
+        "street": "Inselweg",
+        "housenumber": "1"
+    },
+    {
+        "id": 536,
+        "latlong": [
+            "50.69406222",
+            "9.22487836"
+        ],
+        "status": "unknown",
+        "street": "Hauptstra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 537,
+        "latlong": [
+            "50.6936341",
+            "9.22490238"
+        ],
+        "status": "unknown",
+        "street": "Hauptstra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 538,
+        "latlong": [
+            "50.695395675",
+            "9.2253218"
+        ],
+        "status": "unknown",
+        "street": "Hauptstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 539,
+        "latlong": [
+            "50.6938314727273",
+            "9.22264404545455"
+        ],
+        "status": "unknown",
+        "street": "Ortsring",
+        "housenumber": "6"
+    },
+    {
+        "id": 540,
+        "latlong": [
+            "50.69337622",
+            "9.22475008"
+        ],
+        "status": "unknown",
+        "street": "Uferweg",
+        "housenumber": "6"
+    },
+    {
+        "id": 541,
+        "latlong": [
+            "50.69302726",
+            "9.22316318"
+        ],
+        "status": "unknown",
+        "street": "Querweg",
+        "housenumber": "1"
+    },
+    {
+        "id": 542,
+        "latlong": [
+            "50.6937931428571",
+            "9.22359674285714"
+        ],
+        "status": "unknown",
+        "street": "Ortsring",
+        "housenumber": "20"
+    },
+    {
+        "id": 543,
+        "latlong": [
+            "50.6939653714286",
+            "9.22319632857143"
+        ],
+        "status": "unknown",
+        "street": "Ortsring",
+        "housenumber": "4"
+    },
+    {
+        "id": 544,
+        "latlong": [
+            "50.6936829888889",
+            "9.22411325555555"
+        ],
+        "status": "unknown",
+        "street": "Uferweg",
+        "housenumber": "4"
+    },
+    {
+        "id": 545,
+        "latlong": [
+            "50.68680684",
+            "9.24376596"
+        ],
+        "status": "unknown",
+        "street": "Vadenr\u00f6der Stra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 546,
+        "latlong": [
+            "50.6861237333333",
+            "9.24203653333333"
+        ],
+        "status": "ja",
+        "street": "M\u00fchlgasse",
+        "housenumber": "6"
+    },
+    {
+        "id": 547,
+        "latlong": [
+            "50.68643896",
+            "9.24132096"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 548,
+        "latlong": [
+            "50.6880558181818",
+            "9.24308028181818"
+        ],
+        "status": "unknown",
+        "street": "Vogelsbergstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 549,
+        "latlong": [
+            "50.6885939615385",
+            "9.24068283846154"
+        ],
+        "status": "ja",
+        "street": "Lindengarten",
+        "housenumber": "19"
+    },
+    {
+        "id": 550,
+        "latlong": [
+            "50.6880153307692",
+            "9.24159297692308"
+        ],
+        "status": "unknown",
+        "street": "Hochstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 551,
+        "latlong": [
+            "50.6862076266667",
+            "9.2402047"
+        ],
+        "status": "vielleicht",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "19"
+    },
+    {
+        "id": 552,
+        "latlong": [
+            "50.68816208125",
+            "9.24187811875"
+        ],
+        "status": "unknown",
+        "street": "Lindengarten",
+        "housenumber": "7"
+    },
+    {
+        "id": 553,
+        "latlong": [
+            "50.68755888",
+            "9.24211624"
+        ],
+        "status": "unknown",
+        "street": "Lindengarten",
+        "housenumber": "5"
+    },
+    {
+        "id": 554,
+        "latlong": [
+            "50.6862833",
+            "9.24074388"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "17"
+    },
+    {
+        "id": 555,
+        "latlong": [
+            "50.68587136",
+            "9.23957172"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "25"
+    },
+    {
+        "id": 556,
+        "latlong": [
+            "50.68763222",
+            "9.24177636"
+        ],
+        "status": "ja",
+        "street": "Hochstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 557,
+        "latlong": [
+            "50.68819724",
+            "9.24077894"
+        ],
+        "status": "unknown",
+        "street": "Lindengarten",
+        "housenumber": "23"
+    },
+    {
+        "id": 558,
+        "latlong": [
+            "50.68883828",
+            "9.24142252"
+        ],
+        "status": "unknown",
+        "street": "Lindengarten",
+        "housenumber": "13"
+    },
+    {
+        "id": 559,
+        "latlong": [
+            "50.68836108",
+            "9.24023848"
+        ],
+        "status": "unknown",
+        "street": "Lindengarten",
+        "housenumber": "25"
+    },
+    {
+        "id": 560,
+        "latlong": [
+            "50.6872825",
+            "9.2421733"
+        ],
+        "status": "unknown",
+        "street": "Lindengarten",
+        "housenumber": "23"
+    },
+    {
+        "id": 561,
+        "latlong": [
+            "50.68672938",
+            "9.24188486"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 562,
+        "latlong": [
+            "50.68774658",
+            "9.24142658"
+        ],
+        "status": "ja",
+        "street": "Hochstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 563,
+        "latlong": [
+            "50.68851508",
+            "9.24092798"
+        ],
+        "status": "unknown",
+        "street": "Lindengarten",
+        "housenumber": "21"
+    },
+    {
+        "id": 564,
+        "latlong": [
+            "50.6859968",
+            "9.23951415714286"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "27"
+    },
+    {
+        "id": 565,
+        "latlong": [
+            "50.6881244285714",
+            "9.24124328571428"
+        ],
+        "status": "unknown",
+        "street": "Hochstra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 566,
+        "latlong": [
+            "50.6887901285714",
+            "9.24210827142857"
+        ],
+        "status": "unknown",
+        "street": "Lindengarten",
+        "housenumber": "9"
+    },
+    {
+        "id": 567,
+        "latlong": [
+            "50.6881267571429",
+            "9.24008707142857"
+        ],
+        "status": "unknown",
+        "street": "Lindengarten",
+        "housenumber": "27"
+    },
+    {
+        "id": 568,
+        "latlong": [
+            "50.6878883142857",
+            "9.2411045"
+        ],
+        "status": "unknown",
+        "street": "Hochstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 569,
+        "latlong": [
+            "50.6872179454546",
+            "9.24294099090909"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 570,
+        "latlong": [
+            "50.6890477888889",
+            "9.24340983333333"
+        ],
+        "status": "unknown",
+        "street": "Vogelsbergstra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 571,
+        "latlong": [
+            "50.6859700111111",
+            "9.23986661111111"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "23"
+    },
+    {
+        "id": 572,
+        "latlong": [
+            "50.6888253777778",
+            "9.24183061111111"
+        ],
+        "status": "ja",
+        "street": "Lindengarten",
+        "housenumber": "11"
+    },
+    {
+        "id": 573,
+        "latlong": [
+            "50.6866983",
+            "9.24141338888889"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 574,
+        "latlong": [
+            "50.6887288",
+            "9.24075027777778"
+        ],
+        "status": "unknown",
+        "street": "Lindengarten",
+        "housenumber": "0"
+    },
+    {
+        "id": 575,
+        "latlong": [
+            "50.6863274555555",
+            "9.2412116"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "15"
+    },
+    {
+        "id": 576,
+        "latlong": [
+            "50.6878923333333",
+            "9.24190463333333"
+        ],
+        "status": "ja",
+        "street": "Hochstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 577,
+        "latlong": [
+            "50.68707219",
+            "9.24263007"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 578,
+        "latlong": [
+            "50.6861432909091",
+            "9.24374199090909"
+        ],
+        "status": "unknown",
+        "street": "Vadenr\u00f6der Stra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 580,
+        "latlong": [
+            "50.68603822",
+            "9.24387086666667"
+        ],
+        "status": "unknown",
+        "street": "Vadenr\u00f6der Stra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 581,
+        "latlong": [
+            "50.68796776",
+            "9.24385586"
+        ],
+        "status": "nein",
+        "street": "Liederbacher Stra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 582,
+        "latlong": [
+            "50.68775885625",
+            "9.24349505"
+        ],
+        "status": "unknown",
+        "street": "Liederbacher Stra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 583,
+        "latlong": [
+            "50.68721692",
+            "9.24366534"
+        ],
+        "status": "unbekannt",
+        "street": "Vadenr\u00f6der Stra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 584,
+        "latlong": [
+            "50.68737016",
+            "9.24365334"
+        ],
+        "status": "unknown",
+        "street": "Vadenr\u00f6der Stra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 585,
+        "latlong": [
+            "50.6863996571429",
+            "9.24381152857143"
+        ],
+        "status": "ja",
+        "street": "Vadenr\u00f6der Stra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 586,
+        "latlong": [
+            "50.6884050857143",
+            "9.24513977142857"
+        ],
+        "status": "unbekannt",
+        "street": "Liederbacher Stra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 587,
+        "latlong": [
+            "50.6881639",
+            "9.24453795714286"
+        ],
+        "status": "ja",
+        "street": "Liederbacher Stra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 588,
+        "latlong": [
+            "50.6859759625",
+            "9.2441932125"
+        ],
+        "status": "vielleicht",
+        "street": "Vadenr\u00f6der Stra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 589,
+        "latlong": [
+            "50.6875016333333",
+            "9.24426611111111"
+        ],
+        "status": "moechte",
+        "street": "Liederbacher Stra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 590,
+        "latlong": [
+            "50.6856881545455",
+            "9.24101715454546"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 591,
+        "latlong": [
+            "50.6870557363636",
+            "9.24335423636364"
+        ],
+        "status": "unknown",
+        "street": "Vadenr\u00f6der Stra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 592,
+        "latlong": [
+            "50.6860006923077",
+            "9.24124747692308"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 593,
+        "latlong": [
+            "50.68662262",
+            "9.24332692666667"
+        ],
+        "status": "vielleicht",
+        "street": "Vadenr\u00f6der Stra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 594,
+        "latlong": [
+            "50.68642974",
+            "9.24340232"
+        ],
+        "status": "ja",
+        "street": "Vadenr\u00f6der Stra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 595,
+        "latlong": [
+            "50.68576782",
+            "9.24003402"
+        ],
+        "status": "ja",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "20"
+    },
+    {
+        "id": 596,
+        "latlong": [
+            "50.6857713",
+            "9.24028864"
+        ],
+        "status": "vielleicht",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "0"
+    },
+    {
+        "id": 597,
+        "latlong": [
+            "50.68636448",
+            "9.24169126"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 598,
+        "latlong": [
+            "50.6855303857143",
+            "9.23964538571429"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "24"
+    },
+    {
+        "id": 599,
+        "latlong": [
+            "50.68558545",
+            "9.2393042625"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "0"
+    },
+    {
+        "id": 600,
+        "latlong": [
+            "50.685484225",
+            "9.2388231625"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "28"
+    },
+    {
+        "id": 601,
+        "latlong": [
+            "50.6851768222222",
+            "9.23913783333333"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "26"
+    },
+    {
+        "id": 602,
+        "latlong": [
+            "50.68668156",
+            "9.24265655"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 603,
+        "latlong": [
+            "50.677908025",
+            "9.23068850833333"
+        ],
+        "status": "unknown",
+        "street": "Windh\u00e4user Stra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 604,
+        "latlong": [
+            "50.676438975",
+            "9.23058925"
+        ],
+        "status": "unknown",
+        "street": "Windh\u00e4user Stra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 605,
+        "latlong": [
+            "50.677247",
+            "9.23215799230769"
+        ],
+        "status": "unknown",
+        "street": "An der Zeih",
+        "housenumber": "6"
+    },
+    {
+        "id": 606,
+        "latlong": [
+            "50.6790137923077",
+            "9.23065609230769"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 607,
+        "latlong": [
+            "50.6778892",
+            "9.23133564"
+        ],
+        "status": "unknown",
+        "street": "Sch\u00f6tterweg",
+        "housenumber": "9"
+    },
+    {
+        "id": 608,
+        "latlong": [
+            "50.6784420285714",
+            "9.23039215714286"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 609,
+        "latlong": [
+            "50.6775363",
+            "9.23219162"
+        ],
+        "status": "unknown",
+        "street": "An der Zeih",
+        "housenumber": "4"
+    },
+    {
+        "id": 610,
+        "latlong": [
+            "50.68136932",
+            "9.23160024"
+        ],
+        "status": "unknown",
+        "street": "Strebendorfer Stra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 611,
+        "latlong": [
+            "50.67821968",
+            "9.23202086"
+        ],
+        "status": "unknown",
+        "street": "Heimersweg",
+        "housenumber": "8"
+    },
+    {
+        "id": 612,
+        "latlong": [
+            "50.67884962",
+            "9.2302071"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 613,
+        "latlong": [
+            "50.6777078",
+            "9.23107727777778"
+        ],
+        "status": "unknown",
+        "street": "Sch\u00f6tterweg",
+        "housenumber": "6"
+    },
+    {
+        "id": 614,
+        "latlong": [
+            "50.6778036714286",
+            "9.23231107142857"
+        ],
+        "status": "unknown",
+        "street": "An der Zeih",
+        "housenumber": "1"
+    },
+    {
+        "id": 615,
+        "latlong": [
+            "50.6797309285714",
+            "9.23063164285714"
+        ],
+        "status": "unknown",
+        "street": "Strebendorfer Stra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 616,
+        "latlong": [
+            "50.6767234444444",
+            "9.23073764444444"
+        ],
+        "status": "unknown",
+        "street": "Windh\u00e4user Stra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 617,
+        "latlong": [
+            "50.67726022",
+            "9.23128906"
+        ],
+        "status": "unknown",
+        "street": "Sch\u00f6tterweg",
+        "housenumber": "3"
+    },
+    {
+        "id": 618,
+        "latlong": [
+            "50.67786",
+            "9.23102283076923"
+        ],
+        "status": "unknown",
+        "street": "Sch\u00f6tterweg",
+        "housenumber": "8"
+    },
+    {
+        "id": 619,
+        "latlong": [
+            "50.6758330909091",
+            "9.22768161818182"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "28"
+    },
+    {
+        "id": 620,
+        "latlong": [
+            "50.67580686",
+            "9.22947678"
+        ],
+        "status": "unknown",
+        "street": "Windh\u00e4user Stra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 621,
+        "latlong": [
+            "50.6755141",
+            "9.22815734"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "39"
+    },
+    {
+        "id": 622,
+        "latlong": [
+            "50.6743311833333",
+            "9.22551398333333"
+        ],
+        "status": "unknown",
+        "street": "Dietrichsweg",
+        "housenumber": "2"
+    },
+    {
+        "id": 623,
+        "latlong": [
+            "50.6756053428571",
+            "9.22720184285714"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "24"
+    },
+    {
+        "id": 624,
+        "latlong": [
+            "50.67588894",
+            "9.22681972"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "35"
+    },
+    {
+        "id": 625,
+        "latlong": [
+            "50.67603164",
+            "9.22692094"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "33"
+    },
+    {
+        "id": 626,
+        "latlong": [
+            "50.6754433285714",
+            "9.22865611428571"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "41"
+    },
+    {
+        "id": 627,
+        "latlong": [
+            "50.67598534",
+            "9.22736618"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "22"
+    },
+    {
+        "id": 628,
+        "latlong": [
+            "50.6745193444444",
+            "9.22831796666667"
+        ],
+        "status": "unknown",
+        "street": "Windh\u00e4user Stra\u00dfe",
+        "housenumber": "0"
+    },
+    {
+        "id": 629,
+        "latlong": [
+            "50.6743413777778",
+            "9.22831936666667"
+        ],
+        "status": "unknown",
+        "street": "Windh\u00e4user Stra\u00dfe",
+        "housenumber": "23"
+    },
+    {
+        "id": 630,
+        "latlong": [
+            "50.6750897555556",
+            "9.22867423333333"
+        ],
+        "status": "unknown",
+        "street": "Windh\u00e4user Stra\u00dfe",
+        "housenumber": "17"
+    },
+    {
+        "id": 631,
+        "latlong": [
+            "50.6757350777778",
+            "9.2298868"
+        ],
+        "status": "unknown",
+        "street": "Windh\u00e4user Stra\u00dfe",
+        "housenumber": "18"
+    },
+    {
+        "id": 632,
+        "latlong": [
+            "50.6742322555556",
+            "9.22822912222222"
+        ],
+        "status": "unknown",
+        "street": "Windh\u00e4user Stra\u00dfe",
+        "housenumber": "25"
+    },
+    {
+        "id": 633,
+        "latlong": [
+            "50.72989938",
+            "9.19617592"
+        ],
+        "status": "unknown",
+        "street": "Billertsh\u00e4user Stra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 634,
+        "latlong": [
+            "50.72889812",
+            "9.1963576"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 635,
+        "latlong": [
+            "50.7290306166667",
+            "9.20226563333333"
+        ],
+        "status": "unknown",
+        "street": "Bahnhofstra\u00dfe",
+        "housenumber": "18"
+    },
+    {
+        "id": 636,
+        "latlong": [
+            "50.72780842",
+            "9.19805836"
+        ],
+        "status": "unknown",
+        "street": "Wiesenstra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 637,
+        "latlong": [
+            "50.72743252",
+            "9.19864148"
+        ],
+        "status": "unknown",
+        "street": "Wiesenstra\u00dfe",
+        "housenumber": "15"
+    },
+    {
+        "id": 638,
+        "latlong": [
+            "50.72729378",
+            "9.19879138"
+        ],
+        "status": "unknown",
+        "street": "Wiesenstra\u00dfe",
+        "housenumber": "17"
+    },
+    {
+        "id": 639,
+        "latlong": [
+            "50.7276716285714",
+            "9.19825711428571"
+        ],
+        "status": "unknown",
+        "street": "Wiesenstra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 640,
+        "latlong": [
+            "50.7273508875",
+            "9.198041525"
+        ],
+        "status": "unknown",
+        "street": "Wiesenstra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 641,
+        "latlong": [
+            "50.7280616666667",
+            "9.19832927777778"
+        ],
+        "status": "unknown",
+        "street": "Wiesenstra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 642,
+        "latlong": [
+            "50.7281851111111",
+            "9.19807972222222"
+        ],
+        "status": "unknown",
+        "street": "Wiesenstra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 643,
+        "latlong": [
+            "50.7279002555556",
+            "9.19787961111111"
+        ],
+        "status": "unknown",
+        "street": "Wiesenstra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 644,
+        "latlong": [
+            "50.729476725",
+            "9.201544875"
+        ],
+        "status": "unknown",
+        "street": "Br\u00fcckengarten",
+        "housenumber": "5"
+    },
+    {
+        "id": 645,
+        "latlong": [
+            "50.7283182615385",
+            "9.20318168461538"
+        ],
+        "status": "unknown",
+        "street": "Bahnhofstra\u00dfe",
+        "housenumber": "26"
+    },
+    {
+        "id": 646,
+        "latlong": [
+            "50.7287855125",
+            "9.2032269875"
+        ],
+        "status": "unknown",
+        "street": "Bahnhofstra\u00dfe",
+        "housenumber": "20"
+    },
+    {
+        "id": 647,
+        "latlong": [
+            "50.72810642",
+            "9.20222752"
+        ],
+        "status": "unknown",
+        "street": "Bahnhofstra\u00dfe",
+        "housenumber": "19a"
+    },
+    {
+        "id": 648,
+        "latlong": [
+            "50.72940958",
+            "9.20087756"
+        ],
+        "status": "unknown",
+        "street": "Bahnhofstra\u00dfe",
+        "housenumber": "16a"
+    },
+    {
+        "id": 649,
+        "latlong": [
+            "50.7293506",
+            "9.20038458571429"
+        ],
+        "status": "unknown",
+        "street": "Bahnhofstra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 650,
+        "latlong": [
+            "50.7279930571429",
+            "9.2030959"
+        ],
+        "status": "unknown",
+        "street": "Bahnhofstra\u00dfe",
+        "housenumber": "21"
+    },
+    {
+        "id": 651,
+        "latlong": [
+            "50.7277669428571",
+            "9.20342911428571"
+        ],
+        "status": "unknown",
+        "street": "Bahnhofstra\u00dfe",
+        "housenumber": "23"
+    },
+    {
+        "id": 652,
+        "latlong": [
+            "50.72856722",
+            "9.20258474"
+        ],
+        "status": "unknown",
+        "street": "Bahnhofstra\u00dfe",
+        "housenumber": "22"
+    },
+    {
+        "id": 653,
+        "latlong": [
+            "50.7283903714286",
+            "9.20299597142857"
+        ],
+        "status": "unknown",
+        "street": "Bahnhofstra\u00dfe",
+        "housenumber": "24"
+    },
+    {
+        "id": 654,
+        "latlong": [
+            "50.7281446111111",
+            "9.20356393333333"
+        ],
+        "status": "unknown",
+        "street": "Bahnhofstra\u00dfe",
+        "housenumber": "28"
+    },
+    {
+        "id": 655,
+        "latlong": [
+            "50.7295903",
+            "9.20034357272727"
+        ],
+        "status": "unknown",
+        "street": "Br\u00fcckengarten",
+        "housenumber": "2"
+    },
+    {
+        "id": 656,
+        "latlong": [
+            "50.7296760636364",
+            "9.20104034545455"
+        ],
+        "status": "unknown",
+        "street": "Br\u00fcckengarten",
+        "housenumber": "6"
+    },
+    {
+        "id": 657,
+        "latlong": [
+            "50.7299329142857",
+            "9.20176708571429"
+        ],
+        "status": "unknown",
+        "street": "Br\u00fcckengarten",
+        "housenumber": "10"
+    },
+    {
+        "id": 658,
+        "latlong": [
+            "50.7297933444444",
+            "9.20141813333333"
+        ],
+        "status": "unknown",
+        "street": "Br\u00fcckengarten",
+        "housenumber": "8"
+    },
+    {
+        "id": 659,
+        "latlong": [
+            "50.7287739571429",
+            "9.19587282857143"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "21"
+    },
+    {
+        "id": 660,
+        "latlong": [
+            "50.7294386461538",
+            "9.19447628461539"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "14"
+    },
+    {
+        "id": 661,
+        "latlong": [
+            "50.7293481235294",
+            "9.19509712352941"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "18"
+    },
+    {
+        "id": 662,
+        "latlong": [
+            "50.72903686",
+            "9.19391612"
+        ],
+        "status": "unknown",
+        "street": "Am Schildchen",
+        "housenumber": "6"
+    },
+    {
+        "id": 663,
+        "latlong": [
+            "50.7286306",
+            "9.19362394"
+        ],
+        "status": "unknown",
+        "street": "Am Schildchen",
+        "housenumber": "8"
+    },
+    {
+        "id": 664,
+        "latlong": [
+            "50.72803324",
+            "9.195332"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 665,
+        "latlong": [
+            "50.72933986",
+            "9.19467496"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "16"
+    },
+    {
+        "id": 666,
+        "latlong": [
+            "50.72823084",
+            "9.19550386"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 667,
+        "latlong": [
+            "50.72897198",
+            "9.19520604"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "19"
+    },
+    {
+        "id": 668,
+        "latlong": [
+            "50.7298579333333",
+            "9.19423036666667"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "10"
+    },
+    {
+        "id": 669,
+        "latlong": [
+            "50.7290858428571",
+            "9.19462061428571"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "17"
+    },
+    {
+        "id": 670,
+        "latlong": [
+            "50.7285329222222",
+            "9.194819"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 671,
+        "latlong": [
+            "50.7296943888889",
+            "9.19434175555555"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "12"
+    },
+    {
+        "id": 672,
+        "latlong": [
+            "50.72935418",
+            "9.19406572"
+        ],
+        "status": "unknown",
+        "street": "Am Schildchen",
+        "housenumber": "2"
+    },
+    {
+        "id": 673,
+        "latlong": [
+            "50.7279075666667",
+            "9.19519243333333"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 674,
+        "latlong": [
+            "50.7279764307692",
+            "9.19491521538461"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 675,
+        "latlong": [
+            "50.72654668",
+            "9.19416676"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "26"
+    },
+    {
+        "id": 676,
+        "latlong": [
+            "50.7274324",
+            "9.19517436"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "18"
+    },
+    {
+        "id": 677,
+        "latlong": [
+            "50.72763712",
+            "9.19480886"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 678,
+        "latlong": [
+            "50.72684278",
+            "9.19393828"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "21"
+    },
+    {
+        "id": 679,
+        "latlong": [
+            "50.7277433857143",
+            "9.19485691428571"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 680,
+        "latlong": [
+            "50.7273753444444",
+            "9.19444428888889"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "17"
+    },
+    {
+        "id": 681,
+        "latlong": [
+            "50.7274974777778",
+            "9.19458311111111"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "15"
+    },
+    {
+        "id": 682,
+        "latlong": [
+            "50.729941",
+            "9.19360822727273"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "11"
+    },
+    {
+        "id": 683,
+        "latlong": [
+            "50.73013582",
+            "9.19417994"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "8"
+    },
+    {
+        "id": 684,
+        "latlong": [
+            "50.72864976",
+            "9.19333214"
+        ],
+        "status": "unknown",
+        "street": "Am Schildchen",
+        "housenumber": "9"
+    },
+    {
+        "id": 685,
+        "latlong": [
+            "50.73147892",
+            "9.19313656"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "24"
+    },
+    {
+        "id": 686,
+        "latlong": [
+            "50.73132094",
+            "9.19374546"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "20"
+    },
+    {
+        "id": 687,
+        "latlong": [
+            "50.73005828",
+            "9.1916122"
+        ],
+        "status": "unknown",
+        "street": "Holunderweg",
+        "housenumber": "4"
+    },
+    {
+        "id": 688,
+        "latlong": [
+            "50.73096142",
+            "9.19481298"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "7"
+    },
+    {
+        "id": 689,
+        "latlong": [
+            "50.7301200142857",
+            "9.19212062857143"
+        ],
+        "status": "unknown",
+        "street": "Heckenrosenweg",
+        "housenumber": "6"
+    },
+    {
+        "id": 690,
+        "latlong": [
+            "50.7299922",
+            "9.19269256666667"
+        ],
+        "status": "unknown",
+        "street": "Heckenrosenweg",
+        "housenumber": "2"
+    },
+    {
+        "id": 691,
+        "latlong": [
+            "50.7301641",
+            "9.19527958"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "6"
+    },
+    {
+        "id": 692,
+        "latlong": [
+            "50.73161396",
+            "9.19272672"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "26"
+    },
+    {
+        "id": 693,
+        "latlong": [
+            "50.73109128",
+            "9.19425846"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "1"
+    },
+    {
+        "id": 694,
+        "latlong": [
+            "50.73011664",
+            "9.19356312"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "9"
+    },
+    {
+        "id": 695,
+        "latlong": [
+            "50.73051656",
+            "9.19490496"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "10"
+    },
+    {
+        "id": 696,
+        "latlong": [
+            "50.73114114",
+            "9.19383478"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "18"
+    },
+    {
+        "id": 697,
+        "latlong": [
+            "50.7305657",
+            "9.1937796"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "7"
+    },
+    {
+        "id": 698,
+        "latlong": [
+            "50.73007488",
+            "9.19236796"
+        ],
+        "status": "unknown",
+        "street": "Heckenrosenweg",
+        "housenumber": "4"
+    },
+    {
+        "id": 699,
+        "latlong": [
+            "50.7302926333333",
+            "9.19137386666667"
+        ],
+        "status": "unknown",
+        "street": "Holunderweg",
+        "housenumber": "1"
+    },
+    {
+        "id": 700,
+        "latlong": [
+            "50.7296968857143",
+            "9.19356324285714"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "13"
+    },
+    {
+        "id": 701,
+        "latlong": [
+            "50.7303537142857",
+            "9.19401814285714"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "6"
+    },
+    {
+        "id": 702,
+        "latlong": [
+            "50.7309438",
+            "9.19403318571429"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "3"
+    },
+    {
+        "id": 703,
+        "latlong": [
+            "50.7294491857143",
+            "9.19376344285714"
+        ],
+        "status": "unknown",
+        "street": "Am Schildchen",
+        "housenumber": "1"
+    },
+    {
+        "id": 704,
+        "latlong": [
+            "50.7308701571429",
+            "9.1944493"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "14"
+    },
+    {
+        "id": 705,
+        "latlong": [
+            "50.7314193285714",
+            "9.19335121428571"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "22"
+    },
+    {
+        "id": 706,
+        "latlong": [
+            "50.7290623571429",
+            "9.19351752857143"
+        ],
+        "status": "unknown",
+        "street": "Am Schildchen",
+        "housenumber": "5"
+    },
+    {
+        "id": 707,
+        "latlong": [
+            "50.73011",
+            "9.191282725"
+        ],
+        "status": "unknown",
+        "street": "Holunderweg",
+        "housenumber": "3"
+    },
+    {
+        "id": 708,
+        "latlong": [
+            "50.7292840555556",
+            "9.19356022222222"
+        ],
+        "status": "unknown",
+        "street": "Am Schildchen",
+        "housenumber": "3"
+    },
+    {
+        "id": 709,
+        "latlong": [
+            "50.7283706777778",
+            "9.19297701111111"
+        ],
+        "status": "unknown",
+        "street": "Am Schildchen",
+        "housenumber": "11"
+    },
+    {
+        "id": 710,
+        "latlong": [
+            "50.7300353777778",
+            "9.19531397777778"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "4"
+    },
+    {
+        "id": 711,
+        "latlong": [
+            "50.7305408833333",
+            "9.19192873333333"
+        ],
+        "status": "unknown",
+        "street": "Heckenrosenweg",
+        "housenumber": "5"
+    },
+    {
+        "id": 712,
+        "latlong": [
+            "50.7308042555556",
+            "9.19383487777778"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "5"
+    },
+    {
+        "id": 713,
+        "latlong": [
+            "50.7280908555556",
+            "9.19287415555556"
+        ],
+        "status": "unknown",
+        "street": "Am Schildchen",
+        "housenumber": "13"
+    },
+    {
+        "id": 714,
+        "latlong": [
+            "50.73070004",
+            "9.1942111"
+        ],
+        "status": "unknown",
+        "street": "Hofgasse",
+        "housenumber": "4"
+    },
+    {
+        "id": 715,
+        "latlong": [
+            "50.7289306",
+            "9.19337221"
+        ],
+        "status": "unknown",
+        "street": "Am Schildchen",
+        "housenumber": "7"
+    },
+    {
+        "id": 716,
+        "latlong": [
+            "50.7327602615385",
+            "9.19350085384615"
+        ],
+        "status": "unknown",
+        "street": "Tannenstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 717,
+        "latlong": [
+            "50.7325846111111",
+            "9.19395637777778"
+        ],
+        "status": "unknown",
+        "street": "Tannenstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 718,
+        "latlong": [
+            "50.7323945125",
+            "9.19249295"
+        ],
+        "status": "unknown",
+        "street": "Bergstra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 719,
+        "latlong": [
+            "50.7323458692308",
+            "9.19289331538462"
+        ],
+        "status": "unknown",
+        "street": "Bergstra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 720,
+        "latlong": [
+            "50.7328718692308",
+            "9.19248122307692"
+        ],
+        "status": "unknown",
+        "street": "Lindenstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 721,
+        "latlong": [
+            "50.7334239647059",
+            "9.1932290882353"
+        ],
+        "status": "unknown",
+        "street": "Lindenstra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 722,
+        "latlong": [
+            "50.73288962",
+            "9.19484618"
+        ],
+        "status": "unknown",
+        "street": "Birkenstra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 723,
+        "latlong": [
+            "50.73274098",
+            "9.19500148"
+        ],
+        "status": "unknown",
+        "street": "Birkenstra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 724,
+        "latlong": [
+            "50.73233898",
+            "9.19488212"
+        ],
+        "status": "unknown",
+        "street": "Birkenstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 725,
+        "latlong": [
+            "50.73216802",
+            "9.19379184"
+        ],
+        "status": "unknown",
+        "street": "Bergstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 726,
+        "latlong": [
+            "50.7326862857143",
+            "9.19286132857143"
+        ],
+        "status": "unknown",
+        "street": "Lindenstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 727,
+        "latlong": [
+            "50.73254012",
+            "9.19464066"
+        ],
+        "status": "unknown",
+        "street": "Birkenstra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 728,
+        "latlong": [
+            "50.73331974",
+            "9.19405164"
+        ],
+        "status": "unknown",
+        "street": "Tannenstra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 729,
+        "latlong": [
+            "50.73318616",
+            "9.1930597"
+        ],
+        "status": "unknown",
+        "street": "Lindenstra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 730,
+        "latlong": [
+            "50.73228692",
+            "9.1932546"
+        ],
+        "status": "unknown",
+        "street": "Bergstra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 731,
+        "latlong": [
+            "50.73265948",
+            "9.18877594"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "46"
+    },
+    {
+        "id": 732,
+        "latlong": [
+            "50.73150775",
+            "9.19384455"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "13a"
+    },
+    {
+        "id": 733,
+        "latlong": [
+            "50.73188276",
+            "9.19205992"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "28"
+    },
+    {
+        "id": 734,
+        "latlong": [
+            "50.73256054",
+            "9.19515068"
+        ],
+        "status": "unknown",
+        "street": "Birkenstra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 735,
+        "latlong": [
+            "50.73222918",
+            "9.19352876"
+        ],
+        "status": "unknown",
+        "street": "Bergstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 736,
+        "latlong": [
+            "50.73300342",
+            "9.19298396"
+        ],
+        "status": "unknown",
+        "street": "Lindenstra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 737,
+        "latlong": [
+            "50.73269256",
+            "9.1924726"
+        ],
+        "status": "unknown",
+        "street": "Lindenstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 738,
+        "latlong": [
+            "50.73209882",
+            "9.19107102"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "32"
+    },
+    {
+        "id": 739,
+        "latlong": [
+            "50.73305326",
+            "9.19253136"
+        ],
+        "status": "unknown",
+        "street": "Lindenstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 740,
+        "latlong": [
+            "50.73220916",
+            "9.19458238"
+        ],
+        "status": "unknown",
+        "street": "Birkenstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 741,
+        "latlong": [
+            "50.73345668",
+            "9.19251382"
+        ],
+        "status": "unknown",
+        "street": "Lindenstra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 742,
+        "latlong": [
+            "50.7319015714286",
+            "9.19172777142857"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "28a"
+    },
+    {
+        "id": 743,
+        "latlong": [
+            "50.7333908285714",
+            "9.19361021428571"
+        ],
+        "status": "unknown",
+        "street": "Tannenstra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 744,
+        "latlong": [
+            "50.7319750714286",
+            "9.19148725714286"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "30"
+    },
+    {
+        "id": 745,
+        "latlong": [
+            "50.7325684375",
+            "9.1934102125"
+        ],
+        "status": "unknown",
+        "street": "Tannenstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 746,
+        "latlong": [
+            "50.7313812428571",
+            "9.19421574285714"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "11"
+    },
+    {
+        "id": 747,
+        "latlong": [
+            "50.7329359285714",
+            "9.19406832857143"
+        ],
+        "status": "unknown",
+        "street": "Tannenstra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 748,
+        "latlong": [
+            "50.7329366428571",
+            "9.19356628571429"
+        ],
+        "status": "unknown",
+        "street": "Tannenstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 749,
+        "latlong": [
+            "50.7331220142857",
+            "9.19459121428571"
+        ],
+        "status": "unknown",
+        "street": "Birkenstra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 750,
+        "latlong": [
+            "50.7320750428571",
+            "9.19406848571429"
+        ],
+        "status": "unknown",
+        "street": "Bergstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 751,
+        "latlong": [
+            "50.7331493142857",
+            "9.19348621428571"
+        ],
+        "status": "unknown",
+        "street": "Tannenstra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 752,
+        "latlong": [
+            "50.7324476571429",
+            "9.19383141428571"
+        ],
+        "status": "unknown",
+        "street": "Tannenstra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 753,
+        "latlong": [
+            "50.73277525",
+            "9.193997125"
+        ],
+        "status": "unknown",
+        "street": "Tannenstra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 754,
+        "latlong": [
+            "50.7335984714286",
+            "9.19259731428571"
+        ],
+        "status": "unknown",
+        "street": "Lindenstra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 755,
+        "latlong": [
+            "50.732319925",
+            "9.1901831"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "38"
+    },
+    {
+        "id": 756,
+        "latlong": [
+            "50.7326484125",
+            "9.1881915875"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "48"
+    },
+    {
+        "id": 757,
+        "latlong": [
+            "50.7328340125",
+            "9.192952675"
+        ],
+        "status": "unknown",
+        "street": "Lindenstra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 758,
+        "latlong": [
+            "50.7321906111111",
+            "9.19063136666667"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "34"
+    },
+    {
+        "id": 759,
+        "latlong": [
+            "50.7323466444444",
+            "9.19423175555556"
+        ],
+        "status": "unknown",
+        "street": "Birkenstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 760,
+        "latlong": [
+            "50.7330886888889",
+            "9.19418305555556"
+        ],
+        "status": "unknown",
+        "street": "Tannenstra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 761,
+        "latlong": [
+            "50.732664875",
+            "9.1944253125"
+        ],
+        "status": "unknown",
+        "street": "Birkenstra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 762,
+        "latlong": [
+            "50.7336198333333",
+            "9.19292811111111"
+        ],
+        "status": "unknown",
+        "street": "Lindenstra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 763,
+        "latlong": [
+            "50.7332232333333",
+            "9.19254778888889"
+        ],
+        "status": "unknown",
+        "street": "Lindenstra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 764,
+        "latlong": [
+            "50.6803837076923",
+            "9.2294867"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "20"
+    },
+    {
+        "id": 765,
+        "latlong": [
+            "50.6789766",
+            "9.22989245384615"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "6"
+    },
+    {
+        "id": 766,
+        "latlong": [
+            "50.6792403533333",
+            "9.22971985333333"
+        ],
+        "status": "unknown",
+        "street": "Hintergasse",
+        "housenumber": "3"
+    },
+    {
+        "id": 767,
+        "latlong": [
+            "50.67850956",
+            "9.22976156"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "3"
+    },
+    {
+        "id": 768,
+        "latlong": [
+            "50.68134168",
+            "9.22810566"
+        ],
+        "status": "unknown",
+        "street": "Am Lachenberg",
+        "housenumber": "11"
+    },
+    {
+        "id": 769,
+        "latlong": [
+            "50.6767076",
+            "9.22753614"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "27"
+    },
+    {
+        "id": 770,
+        "latlong": [
+            "50.67880182",
+            "9.22987916"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "4"
+    },
+    {
+        "id": 771,
+        "latlong": [
+            "50.68092712",
+            "9.22941466"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "24"
+    },
+    {
+        "id": 772,
+        "latlong": [
+            "50.68058422",
+            "9.22937366"
+        ],
+        "status": "unknown",
+        "street": "Am Lachenberg",
+        "housenumber": "2"
+    },
+    {
+        "id": 773,
+        "latlong": [
+            "50.68052964",
+            "9.22947196"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "22"
+    },
+    {
+        "id": 774,
+        "latlong": [
+            "50.68121178",
+            "9.228751"
+        ],
+        "status": "unknown",
+        "street": "Am Lachenberg",
+        "housenumber": "7"
+    },
+    {
+        "id": 775,
+        "latlong": [
+            "50.67632674",
+            "9.2271472"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "31"
+    },
+    {
+        "id": 776,
+        "latlong": [
+            "50.68081656",
+            "9.22908502"
+        ],
+        "status": "unknown",
+        "street": "Am Lachenberg",
+        "housenumber": "6"
+    },
+    {
+        "id": 777,
+        "latlong": [
+            "50.67954216",
+            "9.22973762"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 778,
+        "latlong": [
+            "50.68109588",
+            "9.2282741"
+        ],
+        "status": "unknown",
+        "street": "Am Lachenberg",
+        "housenumber": "14"
+    },
+    {
+        "id": 779,
+        "latlong": [
+            "50.68017168",
+            "9.22969538"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "16"
+    },
+    {
+        "id": 780,
+        "latlong": [
+            "50.6782674142857",
+            "9.22953054285714"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "5"
+    },
+    {
+        "id": 781,
+        "latlong": [
+            "50.6772367857143",
+            "9.22816675714286"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "19"
+    },
+    {
+        "id": 782,
+        "latlong": [
+            "50.6769961571429",
+            "9.22788845714286"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "21"
+    },
+    {
+        "id": 783,
+        "latlong": [
+            "50.6809614285714",
+            "9.22857578571429"
+        ],
+        "status": "unknown",
+        "street": "Am Lachenberg",
+        "housenumber": "10"
+    },
+    {
+        "id": 784,
+        "latlong": [
+            "50.6791458",
+            "9.22999454285714"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 785,
+        "latlong": [
+            "50.6810693",
+            "9.22895775714286"
+        ],
+        "status": "unknown",
+        "street": "Am Lachenberg",
+        "housenumber": "5"
+    },
+    {
+        "id": 786,
+        "latlong": [
+            "50.6789381",
+            "9.22920636666667"
+        ],
+        "status": "unknown",
+        "street": "Hintergasse",
+        "housenumber": "1"
+    },
+    {
+        "id": 787,
+        "latlong": [
+            "50.6800372666667",
+            "9.22979807777778"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 788,
+        "latlong": [
+            "50.6765254777778",
+            "9.22736308888889"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "29"
+    },
+    {
+        "id": 789,
+        "latlong": [
+            "50.6777934",
+            "9.22939587777778"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "11"
+    },
+    {
+        "id": 790,
+        "latlong": [
+            "50.6811404888889",
+            "9.22805528888889"
+        ],
+        "status": "unknown",
+        "street": "Am Lachenberg",
+        "housenumber": "18"
+    },
+    {
+        "id": 791,
+        "latlong": [
+            "50.6810522888889",
+            "9.22911178888889"
+        ],
+        "status": "unknown",
+        "street": "Am Lachenberg",
+        "housenumber": "3"
+    },
+    {
+        "id": 792,
+        "latlong": [
+            "50.6798339222222",
+            "9.22977622222222"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "12a"
+    },
+    {
+        "id": 793,
+        "latlong": [
+            "50.6802936777778",
+            "9.22961807777778"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "18"
+    },
+    {
+        "id": 794,
+        "latlong": [
+            "50.6811940555556",
+            "9.2277929"
+        ],
+        "status": "unknown",
+        "street": "Am Lachenberg",
+        "housenumber": "20"
+    },
+    {
+        "id": 795,
+        "latlong": [
+            "50.6768857",
+            "9.23028418181818"
+        ],
+        "status": "unknown",
+        "street": "Windh\u00e4user Stra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 796,
+        "latlong": [
+            "50.6770778",
+            "9.22851288"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "8"
+    },
+    {
+        "id": 797,
+        "latlong": [
+            "50.67631844",
+            "9.22775048"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "18"
+    },
+    {
+        "id": 798,
+        "latlong": [
+            "50.67823418",
+            "9.22993038"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "2"
+    },
+    {
+        "id": 799,
+        "latlong": [
+            "50.6763075",
+            "9.22992202"
+        ],
+        "status": "unknown",
+        "street": "Windh\u00e4user Stra\u00dfe",
+        "housenumber": "9"
+    },
+    {
+        "id": 800,
+        "latlong": [
+            "50.67659162",
+            "9.23012426"
+        ],
+        "status": "unknown",
+        "street": "Windh\u00e4user Stra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 801,
+        "latlong": [
+            "50.6766474222222",
+            "9.22812438888889"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "14"
+    },
+    {
+        "id": 802,
+        "latlong": [
+            "50.6763127666667",
+            "9.22942736666667"
+        ],
+        "status": "unknown",
+        "street": "Windh\u00e4user Stra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 803,
+        "latlong": [
+            "50.6765198",
+            "9.22965922222222"
+        ],
+        "status": "unknown",
+        "street": "Windh\u00e4user Stra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 804,
+        "latlong": [
+            "50.6822105",
+            "9.2296740625"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "31"
+    },
+    {
+        "id": 805,
+        "latlong": [
+            "50.68045338",
+            "9.23019274"
+        ],
+        "status": "unknown",
+        "street": "Erbesgasse",
+        "housenumber": "0"
+    },
+    {
+        "id": 806,
+        "latlong": [
+            "50.6804557",
+            "9.23002218"
+        ],
+        "status": "unknown",
+        "street": "Erbesgasse",
+        "housenumber": "2"
+    },
+    {
+        "id": 807,
+        "latlong": [
+            "50.68215028",
+            "9.22924992"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "30"
+    },
+    {
+        "id": 808,
+        "latlong": [
+            "50.68167704",
+            "9.2294919"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "26"
+    },
+    {
+        "id": 809,
+        "latlong": [
+            "50.6806241111111",
+            "9.22988483333333"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "17"
+    },
+    {
+        "id": 810,
+        "latlong": [
+            "50.6819636857143",
+            "9.22928898571429"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "28"
+    },
+    {
+        "id": 811,
+        "latlong": [
+            "50.6814221555556",
+            "9.22938351111111"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "24a"
+    },
+    {
+        "id": 812,
+        "latlong": [
+            "50.68081574",
+            "9.22982633"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "19"
+    },
+    {
+        "id": 813,
+        "latlong": [
+            "50.6804939777778",
+            "9.22992238888889"
+        ],
+        "status": "unknown",
+        "street": "Erbesgasse",
+        "housenumber": "1"
+    },
+    {
+        "id": 814,
+        "latlong": [
+            "50.67987672",
+            "9.23022222"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "11"
+    },
+    {
+        "id": 815,
+        "latlong": [
+            "50.67942128",
+            "9.23002364"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 816,
+        "latlong": [
+            "50.7129529",
+            "9.21597408"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "12 A"
+    },
+    {
+        "id": 817,
+        "latlong": [
+            "50.6782849",
+            "9.23096598333333"
+        ],
+        "status": "unknown",
+        "street": "Heimersweg",
+        "housenumber": "4"
+    },
+    {
+        "id": 818,
+        "latlong": [
+            "50.67796538",
+            "9.23130864"
+        ],
+        "status": "unknown",
+        "street": "Heimersweg",
+        "housenumber": "3"
+    },
+    {
+        "id": 819,
+        "latlong": [
+            "50.68225588",
+            "9.22915266"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "32"
+    },
+    {
+        "id": 820,
+        "latlong": [
+            "50.6823274285714",
+            "9.22912737142857"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "34"
+    },
+    {
+        "id": 821,
+        "latlong": [
+            "50.6781404428571",
+            "9.23119651428572"
+        ],
+        "status": "unknown",
+        "street": "Heimersweg",
+        "housenumber": "6"
+    },
+    {
+        "id": 822,
+        "latlong": [
+            "50.67776704",
+            "9.22977294"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "4"
+    },
+    {
+        "id": 823,
+        "latlong": [
+            "50.67718355",
+            "9.2306564"
+        ],
+        "status": "unknown",
+        "street": "Windh\u00e4user Stra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 824,
+        "latlong": [
+            "50.67765965",
+            "9.23137995"
+        ],
+        "status": "unknown",
+        "street": "Sch\u00f6tterweg",
+        "housenumber": "5"
+    },
+    {
+        "id": 825,
+        "latlong": [
+            "50.6777406625",
+            "9.231501325"
+        ],
+        "status": "unknown",
+        "street": "Sch\u00f6tterweg",
+        "housenumber": "0"
+    },
+    {
+        "id": 826,
+        "latlong": [
+            "50.6800923375",
+            "9.230231075"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 827,
+        "latlong": [
+            "50.6764830916667",
+            "9.22796489166667"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "16"
+    },
+    {
+        "id": 828,
+        "latlong": [
+            "50.6801837666667",
+            "9.23025645"
+        ],
+        "status": "unknown",
+        "street": "Erbesgasse",
+        "housenumber": "5"
+    },
+    {
+        "id": 829,
+        "latlong": [
+            "50.6807790888889",
+            "9.22743454444444"
+        ],
+        "status": "unknown",
+        "street": "Lachengallen",
+        "housenumber": "3"
+    },
+    {
+        "id": 830,
+        "latlong": [
+            "50.68691072",
+            "9.24207792"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "1"
+    },
+    {
+        "id": 831,
+        "latlong": [
+            "50.6868990111111",
+            "9.24222567777778"
+        ],
+        "status": "unknown",
+        "street": "Ober-Breidenbacher Stra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 832,
+        "latlong": [
+            "50.6754510571429",
+            "9.22685417142857"
+        ],
+        "status": "unknown",
+        "street": "Dietrichsweg",
+        "housenumber": "1"
+    },
+    {
+        "id": 833,
+        "latlong": [
+            "50.67674774",
+            "9.22816044"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "12"
+    },
+    {
+        "id": 834,
+        "latlong": [
+            "50.73148026",
+            "9.19396552"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "13"
+    },
+    {
+        "id": 835,
+        "latlong": [
+            "50.7140021105263",
+            "9.21782901578948"
+        ],
+        "status": "unknown",
+        "street": "Zeller Stra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 836,
+        "latlong": [
+            "50.71230382",
+            "9.22535838"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "11"
+    },
+    {
+        "id": 837,
+        "latlong": [
+            "50.71115156",
+            "9.22609172"
+        ],
+        "status": "unknown",
+        "street": "Krummacker",
+        "housenumber": "42"
+    },
+    {
+        "id": 838,
+        "latlong": [
+            "50.73021676",
+            "9.19185662"
+        ],
+        "status": "unknown",
+        "street": "Heckenrosenweg",
+        "housenumber": "8"
+    },
+    {
+        "id": 839,
+        "latlong": [
+            "50.7306578571429",
+            "9.19453188571429"
+        ],
+        "status": "unknown",
+        "street": "Frauenberg",
+        "housenumber": "12"
+    },
+    {
+        "id": 840,
+        "latlong": [
+            "50.71489294",
+            "9.22308492"
+        ],
+        "status": "unknown",
+        "street": "Ferdinand-Richtberg-Stra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 841,
+        "latlong": [
+            "50.6866730833333",
+            "9.24381476666667"
+        ],
+        "status": "ja",
+        "street": "Vadenr\u00f6der Stra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 842,
+        "latlong": [
+            "50.7138276",
+            "9.2256702"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "10"
+    },
+    {
+        "id": 843,
+        "latlong": [
+            "50.7137679",
+            "9.2256617"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "12"
+    },
+    {
+        "id": 844,
+        "latlong": [
+            "50.713705",
+            "9.2256608"
+        ],
+        "status": "unknown",
+        "street": "Goethestra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 845,
+        "latlong": [
+            "50.717925",
+            "9.2209935"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "30"
+    },
+    {
+        "id": 846,
+        "latlong": [
+            "50.717989",
+            "9.2209419"
+        ],
+        "status": "unknown",
+        "street": "Lutherstra\u00dfe",
+        "housenumber": "32"
+    },
+    {
+        "id": 847,
+        "latlong": [
+            "50.7137674",
+            "9.2208986"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 848,
+        "latlong": [
+            "50.713868",
+            "9.2210463"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "8a"
+    },
+    {
+        "id": 849,
+        "latlong": [
+            "50.7118765",
+            "9.2208635"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "26"
+    },
+    {
+        "id": 850,
+        "latlong": [
+            "50.7095655",
+            "9.2210477"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "50"
+    },
+    {
+        "id": 851,
+        "latlong": [
+            "50.7093783",
+            "9.2210077"
+        ],
+        "status": "unknown",
+        "street": "Neue Stra\u00dfe",
+        "housenumber": "52"
+    },
+    {
+        "id": 852,
+        "latlong": [
+            "50.7138707",
+            "9.2186642"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "8"
+    },
+    {
+        "id": 853,
+        "latlong": [
+            "50.7133368",
+            "9.2176504"
+        ],
+        "status": "unknown",
+        "street": "H\u00fcgelstra\u00dfe",
+        "housenumber": "2"
+    },
+    {
+        "id": 854,
+        "latlong": [
+            "50.713448",
+            "9.2195131"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 855,
+        "latlong": [
+            "50.7133674",
+            "9.2197049"
+        ],
+        "status": "unknown",
+        "street": "Alsfelder Stra\u00dfe",
+        "housenumber": "7"
+    },
+    {
+        "id": 856,
+        "latlong": [
+            "50.6800256",
+            "9.2301624"
+        ],
+        "status": "unknown",
+        "street": "Nieder-Breidenbacher Stra\u00dfe",
+        "housenumber": "0"
+    },
+    {
+        "id": 857,
+        "latlong": [
+            "50.6799251",
+            "9.2307461"
+        ],
+        "status": "unknown",
+        "street": "Strebendorfer Stra\u00dfe",
+        "housenumber": "3"
+    },
+    {
+        "id": 858,
+        "latlong": [
+            "50.6801126",
+            "9.2307365"
+        ],
+        "status": "unknown",
+        "street": "Strebendorfer Stra\u00dfe",
+        "housenumber": "5"
+    },
+    {
+        "id": 859,
+        "latlong": [
+            "50.6781122",
+            "9.2294117"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "7"
+    },
+    {
+        "id": 860,
+        "latlong": [
+            "50.6780064",
+            "9.2293943"
+        ],
+        "status": "unknown",
+        "street": "Torweg",
+        "housenumber": "7a"
+    },
+    {
+        "id": 861,
+        "latlong": [
+            "50.714013",
+            "9.218755"
+        ],
+        "status": "unknown",
+        "street": "Alter Talweg",
+        "housenumber": "1"
+    },
+    {
+        "id": 862,
+        "latlong": [
+            "50.68783",
+            "9.2423726"
+        ],
+        "status": "unknown",
+        "street": "Lindengarten",
+        "housenumber": "6"
+    },
+    {
+        "id": 863,
+        "latlong": [
+            "50.6878138",
+            "9.2421448"
+        ],
+        "status": "unknown",
+        "street": "Lindengarten",
+        "housenumber": "6a"
+    },
+    {
+        "id": 864,
+        "latlong": [
+            "50.7305121",
+            "9.1934494"
+        ],
+        "status": "unknown",
+        "street": "hofgasse",
+        "housenumber": "7"
+    },
+    {
+        "id": 865,
+        "latlong": [
+            "50.7279276",
+            "9.1949183"
+        ],
+        "status": "unknown",
+        "street": "Ludwigstra\u00dfe",
+        "housenumber": "13"
+    },
+    {
+        "id": 866,
+        "latlong": [
+            "50.69260030333403",
+            "9.246454238891603"
+        ],
+        "status": "vielleicht",
+        "street": "1",
+        "housenumber": "1"
+    },
+    {
+        "id": 869,
+        "latlong": [
+            "50.68631565179253",
+            "9.244737625122072"
+        ],
+        "status": "unbekannt",
+        "street": "Vadenr\u00f6der Stra\u00dfe",
+        "housenumber": "14"
+    },
+    {
+        "id": 870,
+        "latlong": [
+            "50.70988165399953",
+            "9.2299111864522"
+        ],
+        "status": "unbekannt",
+        "street": "",
+        "housenumber": ""
+    },
+    {
+        "id": 871,
+        "latlong": [
+            "50.71149152640223",
+            "9.232656726469215"
+        ],
+        "status": "moechte",
+        "street": "",
+        "housenumber": ""
     }
-  },
-  {
-    "latlong": [
-      50.73243,
-      9.19561
-    ],
-    "status": "unknown",
-    "address": {
-      "street": "Tannenstraße",
-      "number": "187"
-    }
-  }
 ]

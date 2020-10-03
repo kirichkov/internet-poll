@@ -45,7 +45,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Umfrage Status</title>
+    <title>Glasfaser für Romrod</title>
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
     <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'>
 		<meta content='IE=edge' http-equiv='X-UA-Compatible'>
@@ -68,5 +68,6 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="./script.js"></script>
+		<div><p style="font: 12px/1.5 'Helvetica Neue', Arial, Helvetica, sans-serif;">Informationen zur persönlichen Nutzung - geschützter Bereich. Widerrechtlicher und nicht genehmigter Zugriff ist strafbar. Zugriffsprotokolliert.</p></div> 
   </body>
 </html>
