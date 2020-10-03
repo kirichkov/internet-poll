@@ -1,4 +1,6 @@
 <?php
+  session_start();  // Start session
+
   function getPostVar($postVar) {
     $returnPostVar = "";
     if (isset($_POST[$postVar])) {
@@ -15,8 +17,7 @@
     file_put_contents('log_'.date("Ymd").'.txt', $log, FILE_APPEND);
 	}
 
-  // Start session
-  session_start();
+
   //echo("Ses: " . $_SESSION['token'] . "<br>");
   if (session_status() == PHP_SESSION_NONE OR !isset($_SESSION['token'])) {
     // Unset to make sure no rubbish exists
